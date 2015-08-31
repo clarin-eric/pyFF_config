@@ -1,0 +1,49 @@
+== Requirements
+
+* https://github.com/leifj/pyFF[pyFF];
+* http://curl.haxx.se/[`curl`].
+
+=== Suggested requirements
+
+* https://wiki.shibboleth.net/confluence/display/SHIB2/XmlSecTool[`XmlSecTool`];
+* https://github.com/clarin-eric/SAML_metadata_QA_validator[`SAML_metadata_QA_validator`].
+
+== To run
+
+* Clone this repository (once).
+* `cd` to its root directory within a POSIX-compatible shell (e.g. first issue `/bin/sh`).
+* Source `control.sh`:
++
+[source,Sh]
+----
+. control.sh
+----
+* Call one of the sourced shell functions. E.g., issue `pyff_fetch_md ;`. The relevant functions are discussed under the following headings. They should be run in this order: `'pyff_fetch_md' && 'pyff_run' '...' && 'pyff_sign' && 'pyff_verify_signatures' && 'pyff_publish' && 'pyff_validate'`.
+
+=== `pyff_fetch_md`
+
+To fetch SAML metadata batches from identity federations that are connected to the https://www.clarin.eu/spf[CLARIN SPF] to `output/`.
+
+=== `pyff_run _job_name_`
+
+To run a certain PyFF job declaration. `job_name` can be link:job_a.fd[`job_a`], link:job_a.fd[`job_b`], link:job_a.fd[`job_c`] or link:job_a.fd[`job_d`].
+
+PyFF jobs process (aggregate/split/filter) SAML metadata. Please study the job declarations to learn about them and their interdependencies. Running them in alphabetic order should be safe.
+
+=== `pyff_sign`
+
+To sign the SPF SAML metadata batches. Dependent on `XmlSecTool`.
+
+=== `pyff_verify_signatures`
+
+To sign the SPF SAML metadata batches. Dependent on `XmlSecTool`.
+
+=== `pyff_publish`
+
+To publish the final SAML metadata batches, as on https://infra.clarin.eu/aai[infra.clarin.eu/aai].
+
+=== `pyff_validate`
+
+To run `SAML_metadata_QA_validator` SAML metadata validation suite on the relevant final SAML metadata batches.
+
+Dependent on `SAML_metadata_QA_validator`.

@@ -1,0 +1,13 @@
+# Automated job A: publish preproduction SAML metadata about the SPF’s SPs.
+- load:
+   - output/md_about_spf_sps.xml
+- select: "!//md:EntityDescriptor[md:SPSSODescriptor]"
+- xslt:
+    stylesheet: tidy.xsl
+- finalize:
+    name: "http://www.clarin.eu/spf"
+    cacheDuration: PT5H
+    validUntil: P10D
+- publish: output/md_about_spf_sps.xml
+- stats
+- certreport

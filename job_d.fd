@@ -1,0 +1,13 @@
+# Automated job D: publish production SAML metadata about CLARIN IdP.
+- load:
+   - input/md_about_clarin_erics_idp.xml
+- select: "!//md:EntityDescriptor"
+- xslt:
+    stylesheet: tidy.xsl 
+- finalize:
+    name: "http://www.clarin.eu/spf"
+    cacheDuration: PT5H
+    validUntil: P10D
+- publish: output/prod_md_about_clarin_erics_idp.xml
+- stats
+- certreport

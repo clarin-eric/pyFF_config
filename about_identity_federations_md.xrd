@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XRDS
+    xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
+    <XRD>
+        <Subject>https://engine.surfconext.nl/authentication/proxy/idps-metadata/key:20140505?sp-entity-id=https://sp.catalog.clarin.eu</Subject>
+        <Link
+            href="file://output/id_feds/surfconext.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>SURFconext</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIID3zCCAsegAwIBAgIJAMVC9xn1ZfsuMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYD
+                        VQQGEwJOTDEQMA4GA1UECAwHVXRyZWNodDEQMA4GA1UEBwwHVXRyZWNodDEVMBMG
+                        A1UECgwMU1VSRm5ldCBCLlYuMRMwEQYDVQQLDApTVVJGY29uZXh0MSYwJAYDVQQD
+                        DB1lbmdpbmUuc3VyZmNvbmV4dC5ubCAyMDE0MDUwNTAeFw0xNDA1MDUxNDIyMzVa
+                        Fw0xOTA1MDUxNDIyMzVaMIGFMQswCQYDVQQGEwJOTDEQMA4GA1UECAwHVXRyZWNo
+                        dDEQMA4GA1UEBwwHVXRyZWNodDEVMBMGA1UECgwMU1VSRm5ldCBCLlYuMRMwEQYD
+                        VQQLDApTVVJGY29uZXh0MSYwJAYDVQQDDB1lbmdpbmUuc3VyZmNvbmV4dC5ubCAy
+                        MDE0MDUwNTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKthMDbB0jKH
+                        efPzmRu9t2h7iLP4wAXr42bHpjzTEk6gttHFb4l/hFiz1YBI88TjiH6hVjnozo/Y
+                        HA2c51us+Y7g0XoS7653lbUN/EHzvDMuyis4Xi2Ijf1A/OUQfH1iFUWttIgtWK9+
+                        fatXoGUS6tirQvrzVh6ZstEp1xbpo1SF6UoVl+fh7tM81qz+Crr/Kroan0UjpZOF
+                        TwxPoK6fdLgMAieKSCRmBGpbJHbQ2xxbdykBBrBbdfzIX4CDepfjE9h/40ldw5jR
+                        n3e392jrS6htk23N9BWWrpBT5QCk0kH3h/6F1Dm6TkyG9CDtt73/anuRkvXbeygI
+                        4wml9bL3rE8CAwEAAaNQME4wHQYDVR0OBBYEFD+Ac7akFxaMhBQAjVfvgGfY8hNK
+                        MB8GA1UdIwQYMBaAFD+Ac7akFxaMhBQAjVfvgGfY8hNKMAwGA1UdEwQFMAMBAf8w
+                        DQYJKoZIhvcNAQELBQADggEBAC8L9D67CxIhGo5aGVu63WqRHBNOdo/FAGI7LURD
+                        FeRmG5nRw/VXzJLGJksh4FSkx7aPrxNWF1uFiDZ80EuYQuIv7bDLblK31ZEbdg1R
+                        9LgiZCdYSr464I7yXQY9o6FiNtSKZkQO8EsscJPPy/Zp4uHAnADWACkOUHiCbcKi
+                        UUFu66dX0Wr/v53Gekz487GgVRs8HEeT9MU1reBKRgdENR8PNg4rbQfLc3YQKLWK
+                        7yWnn/RenjDpuCiePj8N8/80tGgrNgK/6fzM3zI18sSywnXLswxqDb/J+jgVxnQ6
+                        MrsTf1urM8MnfcxG/82oHIwfMh/sXPCZpo+DTLkhQxctJ3M=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://eduid.at/md/aconet-registered.xml</Subject>
+        <Link
+            href="file://output/id_feds/aconet.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>ACOnet</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFGDCCBACgAwIBAgIJAJS+3dUtfj7NMA0GCSqGSIb3DQEBBQUAMIG4MQswCQYD
+                        VQQGEwJBVDEjMCEGA1UEChMaQUNPbmV0IC8gVW5pdmVyc2l0YWV0IFdpZW4xOTA3
+                        BgNVBAsTMFplbnRyYWxlciBJbmZvcm1hdGlrZGllbnN0IGRlciBVbml2ZXJzaXRh
+                        ZXQgV2llbjEkMCIGA1UEAxMbQUNPbmV0IE1ldGFkYXRhIFNpZ25pbmcgS2V5MSMw
+                        IQYJKoZIhvcNAQkBFhRhYWkuemlkQHVuaXZpZS5hYy5hdDAeFw0wODA1MjkxMjI3
+                        MjBaFw0xODA1MjcxMjI3MjBaMIG4MQswCQYDVQQGEwJBVDEjMCEGA1UEChMaQUNP
+                        bmV0IC8gVW5pdmVyc2l0YWV0IFdpZW4xOTA3BgNVBAsTMFplbnRyYWxlciBJbmZv
+                        cm1hdGlrZGllbnN0IGRlciBVbml2ZXJzaXRhZXQgV2llbjEkMCIGA1UEAxMbQUNP
+                        bmV0IE1ldGFkYXRhIFNpZ25pbmcgS2V5MSMwIQYJKoZIhvcNAQkBFhRhYWkuemlk
+                        QHVuaXZpZS5hYy5hdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEg
+                        y0tuWObKZqwfH8pEqs1202hLLEf3A9dn6BSA6C8DeT1BMF1lj7JfM18qBcNp1paz
+                        kSuO2fMI1NUJTuAXGUbfIsedhiV7PUOcYAbOMxP16eoYFAWtIn9j8TlqANlE6lIA
+                        Y/C+o6FZM+awXomOydgpH70cPkEs5DJvmBLJgHMKcoIWrynw72Ejsbm7mAWnKpMB
+                        mtCfAJA7oht5H6cnawhOUfCk7fD+uV4nufoPGAlNJqpdbwsw9DuPMuXSuUhw+D4Z
+                        KRtgQGshojVEe2w0pFRJW97sm8I29AUCPqtIbuDaqXmY02NKU57uaGYUFuPXuDPo
+                        CiRKElHHiNwkmep0nx8CAwEAAaOCASEwggEdMB0GA1UdDgQWBBRMDvgWXOITq/Y4
+                        pQcczif+Ly7y4zCB7QYDVR0jBIHlMIHigBRMDvgWXOITq/Y4pQcczif+Ly7y46GB
+                        vqSBuzCBuDELMAkGA1UEBhMCQVQxIzAhBgNVBAoTGkFDT25ldCAvIFVuaXZlcnNp
+                        dGFldCBXaWVuMTkwNwYDVQQLEzBaZW50cmFsZXIgSW5mb3JtYXRpa2RpZW5zdCBk
+                        ZXIgVW5pdmVyc2l0YWV0IFdpZW4xJDAiBgNVBAMTG0FDT25ldCBNZXRhZGF0YSBT
+                        aWduaW5nIEtleTEjMCEGCSqGSIb3DQEJARYUYWFpLnppZEB1bml2aWUuYWMuYXSC
+                        CQCUvt3VLX4+zTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQASWCbG
+                        /jR4a8lxYvRoh+B7KDQa95R4UPnN1A+pIsGcEkYPa8thqpnHH6vCm6VioIc34wfw
+                        KtruBYVfxrT8Bh7A2kuRCpnXzZtMnFsxRJP5GB28VJc7m7Ev4OjOOVglahPM7xFu
+                        gVFxsxYimah1JQIMAJPHFYgwhEEPMmuwpCd0S9Lj6yVc0VVW0NBeaqTTBRRAQdKX
+                        ekwKYe5tVVuZV/zyXDaXJbCVwEz620VQjJ7o0aU06eJ8Sr3Q4DpXz74b/baWOhA9
+                        3tuzubdIm+mTaEDggMgAV3cZJg+djx2eSmyDQVwxaOZ3ESiR1Gcoz0vCsg8smrZJ
+                        wM0aEN5quFWfiFFE
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://www.aai.dfn.de/fileadmin/metadata/DFN-AAI-Basic-metadata.xml</Subject>
+        <Link
+            href="file://output/id_feds/dfn-aai-basic.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>DFN-AAI Advanced+Basic</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFfzCCBGegAwIBAgIHF2SJb0dzzzANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQG
+                        EwJERTETMBEGA1UEChMKREZOLVZlcmVpbjEZMBcGA1UECxMQR2VzY2hhZWZ0c3N0
+                        ZWxsZTEfMB0GA1UEAxMWREZOLVZlcmVpbi1HUy1DQSAtIEcwMjAeFw0xNDA0MDkw
+                        ODU5MTFaFw0xNzA0MDgwODU5MTFaMIGFMQswCQYDVQQGEwJERTEPMA0GA1UECBMG
+                        QmVybGluMQ8wDQYDVQQHEwZCZXJsaW4xEzARBgNVBAoTCkRGTi1WZXJlaW4xGTAX
+                        BgNVBAsTEEdlc2NoYWVmdHNzdGVsbGUxJDAiBgNVBAMTG0dSUDogREZOLUFBSSBN
+                        ZXRhZGF0YXNpZ25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANUR
+                        fxXgew5yir0FWnFXX7R3jqms00mbf5hrp4m/RPm0g3eIvmGcWHyw3L3p1UkygGUz
+                        hLlPY74hXCgP+iiQOxTxO3nxtpA7CQmduhotVGadj9xfRJeDp5f+b9y1ssHNnbNz
+                        QhvhxXbOytT4KAiKy958V8Bmi0YZeWlbGTUvnDuYKwMm/KeRqLqoH3mVGWd9N5+e
+                        rvU5zdQ2KU60YCxQX/Tqhl4rjxAJCdtPtxuSeEpPSn/zMPTNToSXG/HqDbLMn+U8
+                        yc8zMNFKbzOeH4yC1zobZ5IdtZINjb7yTc8YjTYLFX5Uun3D2JgrodRMp3KSyd/0
+                        yNuvIVyzuXpfhkdP8OECAwEAAaOCAhgwggIUMC8GA1UdIAQoMCYwEQYPKwYBBAGB
+                        rSGCLAEBBAMBMBEGDysGAQQBga0hgiwCAQQDATAJBgNVHRMEAjAAMAsGA1UdDwQE
+                        AwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUDvGJWmiD0xDBpWkM
+                        o7BdbPqAQ1AwHwYDVR0jBBgwFoAUeaJiL87xBjlS53ZtYsfem2p1S0kwgZEGA1Ud
+                        HwSBiTCBhjBBoD+gPYY7aHR0cDovL2NkcDEucGNhLmRmbi5kZS9kZm4tdmVyZWlu
+                        LWdzLWNhL3B1Yi9jcmwvZ19jYWNybC5jcmwwQaA/oD2GO2h0dHA6Ly9jZHAyLnBj
+                        YS5kZm4uZGUvZGZuLXZlcmVpbi1ncy1jYS9wdWIvY3JsL2dfY2FjcmwuY3JsMIHf
+                        BggrBgEFBQcBAQSB0jCBzzAzBggrBgEFBQcwAYYnaHR0cDovL29jc3AucGNhLmRm
+                        bi5kZS9PQ1NQLVNlcnZlci9PQ1NQMEsGCCsGAQUFBzAChj9odHRwOi8vY2RwMS5w
+                        Y2EuZGZuLmRlL2Rmbi12ZXJlaW4tZ3MtY2EvcHViL2NhY2VydC9nX2NhY2VydC5j
+                        cnQwSwYIKwYBBQUHMAKGP2h0dHA6Ly9jZHAyLnBjYS5kZm4uZGUvZGZuLXZlcmVp
+                        bi1ncy1jYS9wdWIvY2FjZXJ0L2dfY2FjZXJ0LmNydDANBgkqhkiG9w0BAQsFAAOC
+                        AQEAf3gv6SbxfQrMHzx+iztTBC4HmKNrIQ5oPVkm/k2aYJRTZT6nQyjHv+aKmAg3
+                        ht5yBKmEPE7SUrKWxC4Iv8s40XiiMJRX/3T9JTRkwUEVLFmVVM+AcGJokAog2hS8
+                        AuRXoZWRvDsKlHn/PP0ZFDw35vgtAa3s86G+3GIxIiy4DpNqXLBjq+7JlMFTQRaf
+                        Gn1wFU/Yd9mymcN8hzH8RDvhUcEOBATScEdm+KFZbhykquA1CR4pmhaffEiavj6/
+                        0LpvwN9NQRv8n/JzqA8W1SsZPwCg342LqIqcGeTve3e2joyNyCWHuNYJQjTYur6o
+                        hpNRqAmlu7VxPez3ZzBpI6i5aw==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://haka.funet.fi/metadata/haka-metadata.xml</Subject>
+        <Link
+            href="file://output/id_feds/haka.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>Haka</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIEnzCCA4egAwIBAgIRAIftO2AWO3NG7PUgVDZNmKQwDQYJKoZIhvcNAQELBQAw
+                        ZDELMAkGA1UEBhMCTkwxFjAUBgNVBAgTDU5vb3JkLUhvbGxhbmQxEjAQBgNVBAcT
+                        CUFtc3RlcmRhbTEPMA0GA1UEChMGVEVSRU5BMRgwFgYDVQQDEw9URVJFTkEgU1NM
+                        IENBIDIwHhcNMTUwMTIzMDAwMDAwWhcNMTgwMTIyMjM1OTU5WjBAMSEwHwYDVQQL
+                        ExhEb21haW4gQ29udHJvbCBWYWxpZGF0ZWQxGzAZBgNVBAMTEmhha2Etc2lnbi5m
+                        dW5ldC5maTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALBlEhXdLOGN
+                        p2grXf/w6wryUlQ/pjnCZq54ynG1XYNewr8Hb6VeSO/hetLqu1fdECLQTjck68af
+                        6LWcSiB4I3RzFAQDEv1x68RW8Tellj90a/I50YNvbT8CV8IpO19SHHm0+b0uymtD
+                        An27xJ6RRop16pirgr3wPaesoy+YrVVkMeoqt7b2gwoNHXaxH1F9MbHi7UxoXjt3
+                        bHbpbs2e66l983CV5A043yeGrjreur6ymK3TU0kCQlJfqlr2tGQ8CLaMcUHtwKWU
+                        6PYP4wSb/ByL/PW7qrEziUEZF4uQm33s7gq+O38gT0mVSgf/i8GNnt/F7UohniBu
+                        JTkqz1uWHQcCAwEAAaOCAW4wggFqMB8GA1UdIwQYMBaAFFvQihyaMlvgtd2WVBvh
+                        hiiw/ba9MB0GA1UdDgQWBBTWp/j8x/E2RCFmmgYliV2OwY0/+jAOBgNVHQ8BAf8E
+                        BAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH
+                        AwIwIgYDVR0gBBswGTANBgsrBgEEAbIxAQICHTAIBgZngQwBAgEwOgYDVR0fBDMw
+                        MTAvoC2gK4YpaHR0cDovL2NybC51c2VydHJ1c3QuY29tL1RFUkVOQVNTTENBMi5j
+                        cmwwbAYIKwYBBQUHAQEEYDBeMDUGCCsGAQUFBzAChilodHRwOi8vY3J0LnVzZXJ0
+                        cnVzdC5jb20vVEVSRU5BU1NMQ0EyLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29j
+                        c3AudXNlcnRydXN0LmNvbTAdBgNVHREEFjAUghJoYWthLXNpZ24uZnVuZXQuZmkw
+                        DQYJKoZIhvcNAQELBQADggEBACP3XBSpy4muDX7UbcRV4vED0p199uX+JC/jiE06
+                        +16o6/ArbW8HH9boJ1iEr2sPTMPd1jxOqIYVD6unJ442kOfyCQskKV+a9vjnR0Vr
+                        KeTO1wqko9gPkh1DvjHhOs/hedrJiBCOpV4XPKAkcnEJSHnD6ZXJG055ss2VHzwE
+                        QmenDkqYdRWkcnzhRjij8bnOLiYnLl+PtD/IJ+U/8jrV9HToRmOpyHtwO1UIpHIE
+                        Lpp4940BYZ3t2Krd14yIUFlKRXJCMFuOf21RWeM6WZ+gM2hrtJkRWl7Y8N4ankG+
+                        t4VO/Uc7h6/tveL871eqrETLJKOBSiYajZxhOyJwwrpa/5M=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+   <XRD>
+        <Subject>https://kalmar2.org/simplesaml/module.php/aggregator/?id=kalmarcentral2&amp;set=saml2</Subject>
+        <Link
+            href="file://output/id_feds/kalmar.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>Kalmar Union</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIC+zCCAmSgAwIBAgIJALIv7VqXanQYMA0GCSqGSIb3DQEBBQUAMF0xCzAJBgNV
+                        BAYTAk5PMRIwEAYDVQQIEwlUcm9uZGhlaW0xEjAQBgNVBAcTCVRyb25kaGVpbTEQ
+                        MA4GA1UEChMHVU5JTkVUVDEUMBIGA1UEAxMLa2FsbWFyMi5vcmcwHhcNMDkxMDI2
+                        MDY1OTQyWhcNMTkxMDI2MDY1OTQyWjBdMQswCQYDVQQGEwJOTzESMBAGA1UECBMJ
+                        VHJvbmRoZWltMRIwEAYDVQQHEwlUcm9uZGhlaW0xEDAOBgNVBAoTB1VOSU5FVFQx
+                        FDASBgNVBAMTC2thbG1hcjIub3JnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKB
+                        gQCi7bEwud2nKm9FSojyIFGXN1p2ZGpUOKSFxhmeicCujHQr1VYUhyXBDHONwPDt
+                        K9PdHFZ4lLgLKcAIqUcOoAWr65m/MJJVkX0P7TUTZ6OS4mDAo1NsZexZxTBof9hC
+                        wnFz9dbqEThqZw2UtyEDnhW6kCb6SBd+2Yjvd+YDZg8lfwIDAQABo4HCMIG/MB0G
+                        A1UdDgQWBBS2Sw/w4drjYrTiAHeWXyN2W1j1iDCBjwYDVR0jBIGHMIGEgBS2Sw/w
+                        4drjYrTiAHeWXyN2W1j1iKFhpF8wXTELMAkGA1UEBhMCTk8xEjAQBgNVBAgTCVRy
+                        b25kaGVpbTESMBAGA1UEBxMJVHJvbmRoZWltMRAwDgYDVQQKEwdVTklORVRUMRQw
+                        EgYDVQQDEwtrYWxtYXIyLm9yZ4IJALIv7VqXanQYMAwGA1UdEwQFMAMBAf8wDQYJ
+                        KoZIhvcNAQEFBQADgYEALx5V6xKtPr7urC/QOWiHxUChQO+SJsbnlwIquwaEGgUf
+                        0WrGidPu04zdv+VpKtR+/KZbIDuSWx0/AkbexiE9ZUzJ2GvdVSxr/uON9CtQIQTp
+                        5WjZD0KaieaoIMy/w5shc+trjkV550g/MWFFqAjproXwHRrEQoAxWL0smtR1R/I=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
+        <Link
+            href="file://output/id_feds/belnet.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>Belnet</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIElDCCA3ygAwIBAgIQIC4kyLfZZL8i5AbFSxFvHzANBgkqhkiG9w0BAQUFADA2MQswCQYDVQQG
+                        EwJOTDEPMA0GA1UEChMGVEVSRU5BMRYwFAYDVQQDEw1URVJFTkEgU1NMIENBMB4XDTEzMDcwOTAw
+                        MDAwMFoXDTE2MDcwODIzNTk1OVowQjEhMB8GA1UECxMYRG9tYWluIENvbnRyb2wgVmFsaWRhdGVk
+                        MR0wGwYDVQQDExRmZWRlcmF0aW9uLmJlbG5ldC5iZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+                        AQoCggEBALiAxOTbzwQzsgyAT0MonwCDYwww/N/symDoHGVwIKN3xyZC+YZiiPF+agZAMAT+rOa0
+                        BfyzDnjeplX+hsXtyjmo1c4xarrX/YmYzCEPpj0kkoAc4TaIxBnYcsfKD2Y1BY8B4kUuQeqf8Srq
+                        xI9FkSTte8dU170Qcd35TUPErqJHG3FT0ylDDL1N+utrExWf5VugEySkAeNpOBpDd4CJZkUqmCeg
+                        9H4DW9GaKjQpJ0ABbuQN0tj9ootCt+Cayg13sXnkay4k+xHzaze3nth7MlKFNgnFA7QM77pthUYu
+                        /b6/Ogia+dI3q/IWPjyFR62NccicCZp5CvYaGCKNjsGYAzUCAwEAAaOCAZAwggGMMB8GA1UdIwQY
+                        MBaAFAy9k2gM896ro0lrKzdXR+qQ47ntMB0GA1UdDgQWBBTm+NTk29Gtc7F5s+lr+qa6i7AZsjAO
+                        BgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH
+                        AwIwIgYDVR0gBBswGTANBgsrBgEEAbIxAQICHTAIBgZngQwBAgEwOgYDVR0fBDMwMTAvoC2gK4Yp
+                        aHR0cDovL2NybC50Y3MudGVyZW5hLm9yZy9URVJFTkFTU0xDQS5jcmwwbQYIKwYBBQUHAQEEYTBf
+                        MDUGCCsGAQUFBzAChilodHRwOi8vY3J0LnRjcy50ZXJlbmEub3JnL1RFUkVOQVNTTENBLmNydDAm
+                        BggrBgEFBQcwAYYaaHR0cDovL29jc3AudGNzLnRlcmVuYS5vcmcwPgYDVR0RBDcwNYIUZmVkZXJh
+                        dGlvbi5iZWxuZXQuYmWCHWZlZGVyYXRpb24tbWV0YWRhdGEuYmVsbmV0LmJlMA0GCSqGSIb3DQEB
+                        BQUAA4IBAQC8ocXLZFAw4N24N7Avh9DjKPq7pdh6GUSTCodcfOwmmn8yhjAh3Dfr5eXgWJ3+zXou
+                        spLlJ4CVHLmqJLAKv76zsgmDmOuExGYFQC8Y0ma6LUwBxFyGpL3wHzGEJRHy0khcn3ABCNVtw9tq
+                        sSecYvY8DLLKma1S05R742bnZFYEa9u//FAPwG/1EbIX07/OYS8FKFfibdTdQ9MhRAnIi6N9UyBF
+                        +3WFj63qfFd+sPGKsZxfDeuVOd9i790MMVOZQh4OCTO3qW2lRCG2cbBEsVhRzbMxbHhYxfbtjpSg
+                        QE8OgDPGwLNLqjCXsTDMzerLA/iovIqvVt7sMil7DA5fuPYX
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://metadata.eduid.cz/entities/eduid+idp</Subject>
+        <Link
+            href="file://output/id_feds/eduidcz.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>eduID.cz</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDCjCCAfICCQDeyJjos8lOlTANBgkqhkiG9w0BAQUFADBHMRIwEAYKCZImiZPy
+                        LGQBGRYCY3oxFTATBgoJkiaJk/IsZAEZFgVlZHVJRDEaMBgGA1UEAxMRbWV0YWRh
+                        dGEuZWR1SUQuY3owHhcNMTEwMjE3MjAyMDAwWhcNMjEwMjE0MjAyMDAwWjBHMRIw
+                        EAYKCZImiZPyLGQBGRYCY3oxFTATBgoJkiaJk/IsZAEZFgVlZHVJRDEaMBgGA1UE
+                        AxMRbWV0YWRhdGEuZWR1SUQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+                        AoIBAQD9Wg8jPOecHmHtpCEsNqJnQHXZr6bAKIXUFDZheKRqAi4PvMo6clWkl3sj
+                        MHbqmc+K4HnkGm1445CdxwJnmHsKHcnYrP/Zq0TiP5bydhRpna3c+YCX0alFlwop
+                        Dm3Pl9Nd/fBqMHXjihCsHYZOcM5UY2xW/x+wlhTX3jVSUO/WKhq3Ljae0m9f39R7
+                        DOAwMcaDY+2+9BlIx/Dz78z/LNOVEbzhxLaxt25PzA7Tw1cMfZ07LeER6w2OoQBS
+                        8kZY5aORLOiv3VRsF9LH4n0OGHx4Gxb8QsL8/H1xccfV+aweo4E9sZRGLF506O/+
+                        A567dQWdi4b5Oodtnd+hzEfn2cI1AgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAGHU
+                        6daImmTF7oPVakUtMTRJX+D1rUyw4UM4my6vLTQsm/qz5cq+rhglplCZCMOi/3Ll
+                        ncbrwwFudcn2lvda5KljVcZjoHS/eM8Q0mk0P77cOpAJUYOniUYLnRn84UiPYKTS
+                        70FMq6nIO38rRdSbqROZTqdnzOupOKHJgxZI4FFGzRCSfDEqW5YhlTnUUVMyD2YB
+                        zonXReSFbrhofcMbEDlJj/B7RVnqcCmQJRy28bqS6wK7uJpYNt1HQwASbAnrzUgO
+                        FIbaiwkFIyMuxjzSuXeyl2UDTtTlINECv7Y9FMgifwq2Fyms/TskZzvDEHvAsZxV
+                        bqg7GKeCsFXAnGL79xM=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://md.swamid.se/md/swamid-edugain-1.0.xml</Subject>
+        <Link
+            href="file://output/id_feds/swamid_edugain.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>SWAMID eduGAIN upstream</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDdTCCAl0CBEY7EskwDQYJKoZIhvcNAQEEBQAwfzELMAkGA1UEBhMCU0UxEjAQBgNVBAgTCVN0b2Nr
+                        aG9sbTESMBAGA1UEBxMJU3RvY2tob2xtMREwDwYDVQQKEwhTV0FNSS5zZTEPMA0GA1UECxMGU1dBTUlE
+                        MSQwIgYDVQQDExtTV0FNSUQgbWV0YWRhdGEgc2lnbmVyIHYxLjEwHhcNMDcwNTA0MTEwMjMzWhcNMTcw
+                        NTAxMTEwMjMzWjB/MQswCQYDVQQGEwJTRTESMBAGA1UECBMJU3RvY2tob2xtMRIwEAYDVQQHEwlTdG9j
+                        a2hvbG0xETAPBgNVBAoTCFNXQU1JLnNlMQ8wDQYDVQQLEwZTV0FNSUQxJDAiBgNVBAMTG1NXQU1JRCBt
+                        ZXRhZGF0YSBzaWduZXIgdjEuMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM6wXN3pVCo9
+                        8SACS6JCHjSlWj83oNL/Ct+a9hmAx1NZSKg7lnEJYwWBvzJt5o/47jRQbGm94a45Yy5LVoXq4XyCKINh
+                        MxSwbRROvr8Hw6tgP1Z9dk5Jjejvus3gyaH3+EuEyP4aIjTlgmHDwW6HOv/m/4bOXSHB4Pisn7aocqU7
+                        kjpOn1f0cGodWOgGO4tP7KXs6ndcLhIkW+e/B80WEr0kocuc/pvx+aLuKSkttk/AfP1DFs5sqX31RXQK
+                        GrB/uEEYVv1Qvneig+RXGSbqk2Tab3BcLE/Cjnfi9Q9cH/jReL/YSSafGtl+EBgXKszxjMtELhiEWsL9
+                        RrMu1HUkBusCAwEAATANBgkqhkiG9w0BAQQFAAOCAQEAkXaa61gp/lkEDNRFc0bzH3ZyoUFgol64F1zd
+                        AwBS3xnsCkTnAXt3p452daEyz+0UR5J/BruMOyvR57w1m7ckVnx/sAgRgaD6gQlUWehjKPEsx8o5iDfO
+                        5R1V5Rn2o7+0VuIJDDObEAtMwqn2Nk6TTzsUVfz5y9nUQAxBz3EqXnnSgRwqSwRFyiVkpVfwtUHIolAf
+                        6O2N9Fg1jqoqt4mQCOyRZpD0/5SRYESTY6TJjTmvoh+zOPlIyEiw+Zrl/FWjXtBnRnz8AVT5NRzYiMHd
+                        bTHs0Fh6elsb5b9gTBo7j6+t36m7oo2KDaWWpMWvuWHugEqvIAXDCI/HzTbbiWm9NQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://ds.aai.arnes.si/metadata/arnesaai2edugain.signed.xml</Subject>
+        <Link
+            href="file://output/id_feds/arnesaai_edugain.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>ArnesAAI eduGAIN upstream</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIFmjCCA4KgAwIBAgIGEk8j6ADsMA0GCSqGSIb3DQEBBQUAMGUxCzAJBgNVBAYT
+AlNJMRIwEAYDVQQHDAlManVibGphbmExHTAbBgNVBAMMFEFBSSBNZXRhZGF0YSBT
+aWduaW5nMSMwIQYJKoZIhvcNAQkBFhRhYWEtcG9kcG9yYUBhcm5lcy5zaTAeFw0x
+MzExMTQxMTM5MjRaFw0xODExMTMxMTM5MjRaMGUxCzAJBgNVBAYTAlNJMRIwEAYD
+VQQHDAlManVibGphbmExHTAbBgNVBAMMFEFBSSBNZXRhZGF0YSBTaWduaW5nMSMw
+IQYJKoZIhvcNAQkBFhRhYWEtcG9kcG9yYUBhcm5lcy5zaTCCAiIwDQYJKoZIhvcN
+AQEBBQADggIPADCCAgoCggIBAPJoMQZMeT6o70YKcRllW6koQ4rLKjsRYMQkh79b
+9NOhFILt5hx2l96XeqDGxIJVAE67BiYCIvyBPX7JJ4UNkd0sNV8BRqm7wslaThFU
+aJn3WJhgRNTlw9X/iwIowaIZOfBlAkBff+HXsH73aM0BQ7JoxKJzW1Ihu9sAPfhq
+7LexST3dGQPEvu2ej1dNvaRSBYS2IPfLQcnRkWqbH63ZhhDuytD71crS/zXhcZga
+5kk+sggBmUqY6ojLQ1OFZ292pxs4mkpvgsOxh5uf5FasO1xpHFOLCdIm8x9OE95I
+Fc/3zcIrXPQvwxtitFxgouvDFgN5tFOEdZBd41wWAkapcVY7aaB5puJG3hFUZvEW
+/xuRXbj7frC66PiD2KkiPurBXngXGsImhlV5lXKUVPdR9g8/m/pVN3+W8JLwWrjQ
+7PYdWERogJ605BDmGdd4KWeJ2A6rARxPhfh61Ip3zXwtJUb1Rub7M+PwFmi+AIAq
+Bp/eTV0G3YuiCQL+FPeUh4Y8frBxez5vc492Tx/DhfnjwDi7aEQUedNDtNV4VWPA
+8s5b3TGYbPZaL3ryxN49VkQVVrmOmgi2UWwC5A5HD0sRled3oNZvgHub4eyJxN9k
+DVY8NR2eldQiQ37L9KJXim/J26I49mJ7dbp2FGrtcSIibo0PjzV3wS4QJ1Rnhs2l
+oTQjAgMBAAGjUDBOMB0GA1UdDgQWBBRTMGhxpjq2waAislfRNTiNGT5j+TAfBgNV
+HSMEGDAWgBRTMGhxpjq2waAislfRNTiNGT5j+TAMBgNVHRMEBTADAQH/MA0GCSqG
+SIb3DQEBBQUAA4ICAQAhVMaVr0C/U4sxkBRE8wtaXHphZ+flP1WNYyEvXzOwtn15
+RUa+TA6JmMaK565TrKMwmJ2Bpr13bZznEgWGrzmANJc2OK7DeBB0RQZAt3Nntk+N
+HSsK1VkP0QnstBt21ZxxVAXrKkkmx28Hsy4rGHVqwDoYd+OzEuVevWV5HTuBtmDm
+b7U7dwrRg+AOxeOsEKrS4mtpOk3CcF7drrsRk2Ocz3ZZTpFqlpBP3YQv7dSQYxLq
+YywpWjd/IwSTyQpxDVNo5jQtW6lT920330ABuyRzjvOtjTn2okfQakZ7nhYTwDwU
+95w8QgEcy1NN42P5Rbe+fg/IBfS5XARPWaZCuaNNzbhfC7ZWcS771oNlr4GQjHcE
+ZYQs0XMn7YaY19pCNFj9Jw5HWZAG9DhGGUTdQbhp48SR4EI9RHQJsgBdFsKCXPPY
+WFNds/T8qPLBdHjhInSAVUC3XjS1IC3n5Xnnhmhs2MdNi8R4qj2tOC4URQxZEBXu
+ZJz4twAs1+drOB6GNbDaOWKk9hDNYaiB54RWMDUTmKQ7pWLxJn8nj3ttm5g0nHyb
+ndT84jdqRzVy4Vpm20n4UW9W4QippUkod07WQmWn51tkcOfnDFpClzBcwWuSxorG
+8caqYYMhIKgE9hDnFF4JpX5Aw+atX7ofGHgNQW0ngGKeDO5tvzRQV4KMtluLHA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+<!--
+    <XRD>
+        <Subject>http://metadata.ukfederation.org.uk/ukfederation-metadata.xml</Subject>
+        <Link
+            href="file:///srv/Python/venvs/2014-11-20_SPF/etc/pyff_config/output/id_feds/ukfederation_edugain.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>UK Federation eduGAIN</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIDxzCCAq+gAwIBAgIJAOwuoY8tsvYGMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNV
+BAYTAkdCMUMwQQYDVQQKDDpVSyBBY2Nlc3MgTWFuYWdlbWVudCBGZWRlcmF0aW9u
+IGZvciBFZHVjYXRpb24gYW5kIFJlc2VhcmNoMSYwJAYDVQQDDB1VSyBGZWRlcmF0
+aW9uIE1ldGFkYXRhIFNpZ25lcjAeFw0xNDA4MjYxMjIwMjhaFw0zNzEyMzExMjIw
+MjhaMHoxCzAJBgNVBAYTAkdCMUMwQQYDVQQKDDpVSyBBY2Nlc3MgTWFuYWdlbWVu
+dCBGZWRlcmF0aW9uIGZvciBFZHVjYXRpb24gYW5kIFJlc2VhcmNoMSYwJAYDVQQD
+DB1VSyBGZWRlcmF0aW9uIE1ldGFkYXRhIFNpZ25lcjCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAOqtfMvCmBuQudC4/jZFPYkHDNHFyp1FA3KJihIUXppF
+vrecrO2wG5CpyqB1mZ+MlKf4jKcTMGBIXC2klD+FyrEdJMBhO6vRmJnNphg3uNZM
+ks0NqIaZmtgc7e8435nMhqLHV95UK2oCLcT4gZrTaXa2vt9kukTOijB0KqDIfEG5
+369EHXPItApAEeMlHebbWndl5n2I16nya/LeaoiU9qJ6sVz4xd1UtUesewrmYVKg
+PA2JYEpovmnr13sTnGssai5Db/FkrE2NJ4Q4drbPYcwincUo/UXzrtuPclr+l3JE
+gjtvDzPrBxxvK0S/gARrbKz5tk4LDLkYsj4PKlwVS+UCAwEAAaNQME4wHQYDVR0O
+BBYEFE9HhBuMxrzBYOj1Kj/3gtzAgtUEMB8GA1UdIwQYMBaAFE9HhBuMxrzBYOj1
+Kj/3gtzAgtUEMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALJkjT3K
+QL3w3xNfVe27nEOY44K2AZiu4IhqmRSslcyMnhnxrovEhLL3ieKFXQ+QFIkzVdR5
+BcO3NrSIz5V6b+mHtr5IjqLFHzOzzjw/3i8LddGOsApJiav+JrU1CGJXCU4cwYDN
+hAyfuAlrrEEL2lWMU1L1ZTzHsG1yWTfukfuvTftY5BwZ/dgANgIWwLDhvL6CAQZ3
+g5XteFPyChU0Z7b3XAHdVNHDa2VzWSsSUDtSQZ9DyTuqSjZH1q2/qtdMcrbJpdMB
+cndOf1pZRLzb6a+akIYi//1qO48HpB4wouH9gS3ZER+rNBhVWu301UYxoVI7o8mG
+Yq7dENJce7lO9yE=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+        -->
+         <XRD>
+        <Subject>https://mds.edugain.org/</Subject>
+        <Link
+            href="file://output/id_feds/edugain.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>eduGAIN</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIC1DCCAbwCCQDDDZyGtn6K8TANBgkqhkiG9w0BAQUFADAsMQ4wDAYDVQQKEwVH
+RUFOVDEaMBgGA1UEAxMRZWR1R0FJTiBTaWduZXIgQ0EwHhcNMTQwNzAyMTQzNDQ5
+WhcNMTkwNzAxMTQzNDQ5WjAsMQ4wDAYDVQQKEwVHRUFOVDEaMBgGA1UEAxMRZWR1
+R0FJTiBTaWduZXIgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCR
+fl1zhkaFveJvJtS03bRIO3k77q2s5m+c6sQ83j71rIad+vGCO29S4JHBXHI/U57y
+NbNLgoKzl0MI4WQrs4KT/y+LPMFB9M0lNrALQd/op6PNc7CWKMN1yV8V/L74/vap
+Rlb90gPVJABHmoAfQmjyMXLW38KLwzK1qEpKUIxPBfQMBawmh0gC2T5ndZndcMPp
+gsMXyG2AZ4QGSOt4tgpspjTSRY++X+gi9WUuWzsEHHdFhCR9UYQ6+1glMVheJjVm
+oD0b9V/KQ0BF/1zry2jfWlchFeILlWbWgiWsIBA4BPNHqFW42qGgUr9DI3FzRLHX
+qF2N2f592tzcTeDZ11ejAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBACq0ER17moQB
+/39SstbsWdpGQMIsrHZ+ERF7jYdjnE/63xBfMIVFQo2G1PW0cZ1ckpLIQMyKyTAv
+9RAVxv3WVnQ9IGh715jP/QHH7ycTM7oE5XdpNzNMRDMevrtTa1T/GX6G6+cc73JG
+VoJ9JQNXbLv5bspyG9kkIu9VQqUqlrUWTjzBBysAYj4kR1gorrUmI7l2GBrrcGej
+Q57VXdUxaCKzQita0aSSzbHQ+2BxcvYV1r4QWm6Jv8HTn3c4B1d6QbaSEgGHSCkp
+CxwOq82gt1OM/hOz7wzkIQohaYEo3koNlGsat5Hc24VffcosRmNFYmGU+dCnwHDO
+YuxCFwLHAcg=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+</XRDS>
