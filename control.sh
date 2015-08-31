@@ -4,20 +4,8 @@ pyff_config_directory_path="/srv/pyFF_config/" ;
 
 #cd "$(dirname $(readlink -f "${0}"))" &&
 
-#fetch_spf_md_from_svn() {
-    #cd '/srv/Python/venvs/2014-11-20_SPF/etc/pyff_config/input/' &&
-    #svn cat 'file:////srv/subversion/svn.clarin.eu/aai/clarin-sp-metadata.xml@HEAD' > '/srv/Python/venvs/2014-11-20_SPF/etc/pyff_config/input/md_about_spf_sps.xml'
-    #
-    #if [ "$?" -ne "0" ]; then
-    #    printf '%s\n' "error: failed to svn cat 'file:////srv/subversion/svn.clarin.eu/aai/clarin-sp-metadata.xml@HEAD' .";
-    #    exit 3 ;
-    #fi
-#}
-
 _curl() {
     'curl' --verbose --silent --fail --show-error --ipv4 --tlsv1 --connect-timeout 5 --max-time 10 --retry 5 --retry-delay 0 --retry-max-time 60 --location --time-cond "$1" --output "$1" "$2"
-    #printf '%s ' '/srv/Nagios_plugins/curl/bin/curl' --verbose --silent --fail --show-error --ipv4 --tlsv1 --connect-timeout 5 --max-time 10 --retry 5 --retry-delay 0 --retry-max-time 60 --location --time-cond "$1" --output "$1" "$2"
-
     return $?
 }
 
