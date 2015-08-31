@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pyff_config_directory_path="/srv/pyff_config/" ;
+pyff_config_directory_path="/srv/pyFF_config/" ;
 
 #cd "$(dirname $(readlink -f "${0}"))" &&
 
@@ -25,9 +25,10 @@ _curl() {
 pyff_fetch_md() {
     output_dir_path="${pyff_config_directory_path:-dev/null}/output/" ;
     id_feds_target_dir_path=$(readlink -f -- "${output_dir_path:-/dev/null}/id_feds/") ;
-    temp_dir_path="$(readlink -f -- $(mktemp -d 'pyff_fetch_md.XXXXXX')/)" &&
+    temp_dir_path="$(readlink -f -- $(mktemp -d -t 'pyff_fetch_md.XXXXXX')/)" &&
     # error=''
-    rsync -auv "${id_feds_target_dir_path}/" "${temp_dir_path}"  &&
+    # TODO: Fix dangerous filesystem operations below
+    rsync -auv "${id_feds_target_dir_path:-/dev/null}/" "${temp_dir_path}"  &&
 
     printf '%s \n' "Exporting SAML metadata batch about SPF SPs from SVN into ${output_dir_path} ..." &&
 
@@ -46,7 +47,7 @@ pyff_fetch_md() {
     _curl "${temp_dir_path}/arnesaai_edugain.xml" 'https://ds.aai.arnes.si/metadata/arnesaai2edugain.signed.xml' || error="pyff_fetch_md: ArnesAAI eduGAIN -> exit status: $?; $error"
     _curl "${temp_dir_path}/edugain.xml" 'https://mds.edugain.org/' || error="pyff_fetch_md: eduGAIN -> exit status: $?; $error"
 
-    rsync -auv "${temp_dir_path}/" "${id_feds_target_dir_path}" &&
+    rsync -auv "${temp_dir_path:/dev/null}/" "${id_feds_target_dir_path}" &&
     # mv -v -b -S 'orig' -T  "${id_feds_target_dir_path}" || error="pyff_fetch_md: error during swapping '${temp_dir_path}' and '${id_feds_target_dir_path}' -> exit status: $?; $error"
 
     if [ -n "${error}" ]; then
