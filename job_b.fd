@@ -27,6 +27,8 @@ or @entityID='https://clarino.uib.no/'
 or @entityID='http://sp.vs1.corpora.uni-hamburg.de' 
 or @entityID='http://www.clarin-pl.eu/shibboleth' 
 or @entityID='https://sp.clarin.si/'
+or @entityID='https://www.nederlab.nl/shibboleth'
+or @entityID='https://lbr.csc.fi/shibboleth'
 )]"
 - xslt:
     stylesheet: tidy.xsl
