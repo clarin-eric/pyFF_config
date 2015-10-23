@@ -1,6 +1,6 @@
 # Automated job D: publish production SAML metadata about CLARIN IdP.
 - load:
-   - input/md_about_clarin_erics_idp.xml
+   - input/idp-metadata.xml
 - select: "!//md:EntityDescriptor"
 - xslt:
     stylesheet: tidy.xsl 
