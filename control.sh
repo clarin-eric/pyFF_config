@@ -15,11 +15,11 @@ pyff_fetch_md() {
     output_dir_path="${pyff_config_directory_path:-dev/null/nonexistent}/output/" ;
     id_feds_target_dir_path="$(readlink -f -- "${output_dir_path:-/dev/null}/id_feds/")" ;
     temp_dir_path="$(readlink -f -- "$(mktemp -d -t 'pyff_fetch_md.XXXXXX')")" &&
-    rsync -auv "${id_feds_target_dir_path:-/dev/null/nonexistent}/" "${temp_dir_path}"  &&
+    rsync --remove-source-files -auv "${id_feds_target_dir_path:-/dev/null/nonexistent}/" "${temp_dir_path}"  &&
 
     printf '%s \n' "Exporting SAML metadata batch about SPF SPs from SVN into ${output_dir_path} ..." &&
 
-    svn export --revision 6750 --force --depth files 'https://svn.clarin.eu/aai/clarin-sp-metadata.xml' "${output_dir_path}/md_about_spf_sps.xml" || error="CLARIN SPF SAML metadata export from svn.clarin.eu repository -> exit status: $?; $error" &&
+    svn export --revision 6840 --force --depth files 'https://svn.clarin.eu/aai/clarin-sp-metadata.xml' "${output_dir_path}/md_about_spf_sps.xml" || error="CLARIN SPF SAML metadata export from svn.clarin.eu repository -> exit status: $?; $error" &&
 
     printf '%s \n' "Updating SAML metadata batches about IdPs from identity federations into '${temp_dir_path}' unless already up-to-date in '${id_feds_target_dir_path}' ..." &&
 
@@ -34,7 +34,7 @@ pyff_fetch_md() {
     _curl "${temp_dir_path}/arnesaai_edugain.xml" 'https://ds.aai.arnes.si/metadata/arnesaai2edugain.signed.xml' || error="pyff_fetch_md: ArnesAAI eduGAIN -> exit status: $?; $error"
     _curl "${temp_dir_path}/edugain.xml" 'https://mds.edugain.org/' || error="pyff_fetch_md: eduGAIN -> exit status: $?; $error"
 
-    rsync -auv "${temp_dir_path:-/dev/null}/" "${id_feds_target_dir_path}" &&
+    rsync --remove-source-files  -auv "${temp_dir_path:-/dev/null}/" "${id_feds_target_dir_path}" &&
     # mv -v -b -S 'orig' -T  "${id_feds_target_dir_path}" || error="pyff_fetch_md: error during swapping '${temp_dir_path}' and '${id_feds_target_dir_path}' -> exit status: $?; $error"
 
     if [ -n "${error}" ]; then
