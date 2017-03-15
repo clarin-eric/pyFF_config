@@ -66,6 +66,8 @@ pyff_sign() {
 
     'xmlsectool.sh' --inFile 'output/prod_md_about_clarin_erics_idp.xml' --outFile 'output/prod_md_about_clarin_erics_idp.xml' $xmlsectool_parameters || error="pyff_sign: prod_md_about_clarin_erics_idp -> exit status: $?; $error"
 
+    'xmlsectool.sh' --inFile 'output/prod_md_about_clarin_erics_idm.xml' --outFile 'output/prod_md_about_clarin_erics_idm.xml' $xmlsectool_parameters || error="pyff_sign: prod_md_about_clarin_erics_idm -> exit status: $?; $error"
+
     'xmlsectool.sh' --inFile 'output/prod_md_about_spf_idps.xml' --outFile 'output/prod_md_about_spf_idps.xml' $xmlsectool_parameters || error="pyff_sign: prod_md_about_spf_idps -> exit status: $?; $error"
 
     'xmlsectool.sh' --inFile 'output/prod_md_about_spf_sps.xml' --outFile 'output/prod_md_about_spf_sps.xml' $xmlsectool_parameters || error="pyff_sign: prod_md_about_spf_sps -> exit status: $?; $error"
@@ -92,6 +94,8 @@ pyff_verify_signatures() {
 
     'xmlsectool.sh' --inFile 'output/prod_md_about_clarin_erics_idp.xml' $xmlsectool_parameters || error="pyff_verify_signatures: prod_md_about_clarin_erics_idp -> exit status: $?; $error"
 
+    'xmlsectool.sh' --inFile 'output/prod_md_about_clarin_erics_idm.xml' $xmlsectool_parameters || error="pyff_verify_signatures: prod_md_about_clarin_erics_idm -> exit status: $?; $error"
+
     'xmlsectool.sh' --inFile 'output/prod_md_about_spf_idps.xml' $xmlsectool_parameters || error="pyff_verify_signatures: prod_md_about_spf_idps -> exit status: $?; $error"
 
     'xmlsectool.sh' --inFile 'output/prod_md_about_spf_sps.xml' $xmlsectool_parameters || error="pyff_verify_signatures: prod_md_about_spf_sps -> exit status: $?; $error"
@@ -110,7 +114,7 @@ pyff_verify_signatures() {
 pyff_publish() {
     chown -Rv '0:www-data' 'output/' &&
     chmod -Rv 'u=rw,g=r,o=' 'output/' &&
-    mv 'output/md_about_spf_sps.xml' 'output/prod_md_about_clarin_erics_idp.xml' 'output/prod_md_about_spf_idps.xml' 'output/prod_md_about_spf_sps.xml' -t '/srv/www/infra.clarin.eu/aai/'
+    mv 'output/md_about_spf_sps.xml' 'output/prod_md_about_clarin_erics_idp.xml' 'output/prod_md_about_clarin_erics_idm.xml' 'output/prod_md_about_spf_idps.xml' 'output/prod_md_about_spf_sps.xml' -t '/srv/www/infra.clarin.eu/aai/'
 }
 
 # TODO: obviate Java dependency
