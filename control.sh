@@ -19,7 +19,7 @@ pyff_fetch_md() {
 
     printf '%s \n' "Exporting SAML metadata batch about SPF SPs from SVN into ${output_dir_path} ..." &&
 
-    svn export --revision '7049' --force --depth files 'https://svn.clarin.eu/aai/clarin-sp-metadata.xml' "${output_dir_path}/md_about_spf_sps.xml" || error="CLARIN SPF SAML metadata export from svn.clarin.eu repository -> exit status: $?; $error" &&
+    svn export --revision '7113' --force --depth files 'https://svn.clarin.eu/aai/clarin-sp-metadata.xml' "${output_dir_path}/md_about_spf_sps.xml" || error="CLARIN SPF SAML metadata export from svn.clarin.eu repository -> exit status: $?; $error" &&
 
     printf '%s \n' "Updating SAML metadata batches about IdPs from identity federations into '${temp_dir_path}' unless already up-to-date in '${id_feds_target_dir_path}' ..." &&
 
