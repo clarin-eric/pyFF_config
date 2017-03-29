@@ -5,7 +5,7 @@ pyff_config_directory_path="/srv/pyFF_config/" ;
 #cd "$(dirname $(readlink -f "${0}"))" &&
 
 _curl() {
-    'curl' --verbose --silent --fail --show-error --ipv4 --tlsv1 --connect-timeout 5 --max-time 10 --retry 5 --retry-delay 0 --retry-max-time 60 --location --time-cond "$1" --output "$1" "$2"
+    'curl' --verbose --silent --fail --show-error --ipv4 --tlsv1 --connect-timeout 5 --max-time 80 --retry 5 --retry-delay 0 --retry-max-time 60 --location --time-cond "$1" --output "$1" "$2"
 
     return $?
 }
