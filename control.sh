@@ -75,7 +75,7 @@ pyff_run() {
 
 pyff_sign() {
     xmlsectool_parameters="--sign --digest SHA-512 --key /root/keys/SPF_signing_priv.pem --certificate /root/keys/SPF_signing_pub.crt --referenceIdAttributeName ID "
-    old_JAVA_HOME="${JAVA_HOME:?}"
+    old_JAVA_HOME="${JAVA_HOME}"
     JAVA_HOME='/usr/lib/jvm/java-7-openjdk-amd64/jre/'
     export JAVA_HOME
     # TODO: use $output_dir_path
@@ -116,7 +116,7 @@ pyff_sign() {
 
 pyff_verify_signatures() {
     xmlsectool_parameters=" --verifySignature --certificate /root/keys/SPF_signing_pub.crt "
-    old_JAVA_HOME="${JAVA_HOME:?}"
+    old_JAVA_HOME="${JAVA_HOME}"
     JAVA_HOME='/usr/lib/jvm/java-7-openjdk-amd64/jre/'
     export JAVA_HOME
     # shellcheck disable=SC2086
@@ -149,7 +149,7 @@ pyff_verify_signatures() {
 }
 
 pyff_publish() {
-    old_JAVA_HOME="${JAVA_HOME:?}"
+    old_JAVA_HOME="${JAVA_HOME}"
     JAVA_HOME='/usr/lib/jvm/java-7-openjdk-amd64/jre/'
     export JAVA_HOME
     chown -Rv '0:www-data' 'output/' &&
