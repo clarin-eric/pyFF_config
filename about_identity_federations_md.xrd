@@ -81,7 +81,7 @@
         </Link>
     </XRD>
     <XRD>
-        <Subject>https://www.aai.dfn.de/fileadmin/metadata/DFN-AAI-Basic-metadata.xml</Subject>
+        <Subject>https://www.aai.dfn.de/fileadmin/metadata/dfn-aai-basic-metadata.xml</Subject>
         <Link
             href="file://output/id_feds/dfn-aai-basic.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
@@ -90,36 +90,44 @@
                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
-                        MIIFfzCCBGegAwIBAgIHF2SJb0dzzzANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQG
-                        EwJERTETMBEGA1UEChMKREZOLVZlcmVpbjEZMBcGA1UECxMQR2VzY2hhZWZ0c3N0
-                        ZWxsZTEfMB0GA1UEAxMWREZOLVZlcmVpbi1HUy1DQSAtIEcwMjAeFw0xNDA0MDkw
-                        ODU5MTFaFw0xNzA0MDgwODU5MTFaMIGFMQswCQYDVQQGEwJERTEPMA0GA1UECBMG
-                        QmVybGluMQ8wDQYDVQQHEwZCZXJsaW4xEzARBgNVBAoTCkRGTi1WZXJlaW4xGTAX
-                        BgNVBAsTEEdlc2NoYWVmdHNzdGVsbGUxJDAiBgNVBAMTG0dSUDogREZOLUFBSSBN
-                        ZXRhZGF0YXNpZ25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANUR
-                        fxXgew5yir0FWnFXX7R3jqms00mbf5hrp4m/RPm0g3eIvmGcWHyw3L3p1UkygGUz
-                        hLlPY74hXCgP+iiQOxTxO3nxtpA7CQmduhotVGadj9xfRJeDp5f+b9y1ssHNnbNz
-                        QhvhxXbOytT4KAiKy958V8Bmi0YZeWlbGTUvnDuYKwMm/KeRqLqoH3mVGWd9N5+e
-                        rvU5zdQ2KU60YCxQX/Tqhl4rjxAJCdtPtxuSeEpPSn/zMPTNToSXG/HqDbLMn+U8
-                        yc8zMNFKbzOeH4yC1zobZ5IdtZINjb7yTc8YjTYLFX5Uun3D2JgrodRMp3KSyd/0
-                        yNuvIVyzuXpfhkdP8OECAwEAAaOCAhgwggIUMC8GA1UdIAQoMCYwEQYPKwYBBAGB
-                        rSGCLAEBBAMBMBEGDysGAQQBga0hgiwCAQQDATAJBgNVHRMEAjAAMAsGA1UdDwQE
-                        AwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUDvGJWmiD0xDBpWkM
-                        o7BdbPqAQ1AwHwYDVR0jBBgwFoAUeaJiL87xBjlS53ZtYsfem2p1S0kwgZEGA1Ud
-                        HwSBiTCBhjBBoD+gPYY7aHR0cDovL2NkcDEucGNhLmRmbi5kZS9kZm4tdmVyZWlu
-                        LWdzLWNhL3B1Yi9jcmwvZ19jYWNybC5jcmwwQaA/oD2GO2h0dHA6Ly9jZHAyLnBj
-                        YS5kZm4uZGUvZGZuLXZlcmVpbi1ncy1jYS9wdWIvY3JsL2dfY2FjcmwuY3JsMIHf
-                        BggrBgEFBQcBAQSB0jCBzzAzBggrBgEFBQcwAYYnaHR0cDovL29jc3AucGNhLmRm
-                        bi5kZS9PQ1NQLVNlcnZlci9PQ1NQMEsGCCsGAQUFBzAChj9odHRwOi8vY2RwMS5w
-                        Y2EuZGZuLmRlL2Rmbi12ZXJlaW4tZ3MtY2EvcHViL2NhY2VydC9nX2NhY2VydC5j
-                        cnQwSwYIKwYBBQUHMAKGP2h0dHA6Ly9jZHAyLnBjYS5kZm4uZGUvZGZuLXZlcmVp
-                        bi1ncy1jYS9wdWIvY2FjZXJ0L2dfY2FjZXJ0LmNydDANBgkqhkiG9w0BAQsFAAOC
-                        AQEAf3gv6SbxfQrMHzx+iztTBC4HmKNrIQ5oPVkm/k2aYJRTZT6nQyjHv+aKmAg3
-                        ht5yBKmEPE7SUrKWxC4Iv8s40XiiMJRX/3T9JTRkwUEVLFmVVM+AcGJokAog2hS8
-                        AuRXoZWRvDsKlHn/PP0ZFDw35vgtAa3s86G+3GIxIiy4DpNqXLBjq+7JlMFTQRaf
-                        Gn1wFU/Yd9mymcN8hzH8RDvhUcEOBATScEdm+KFZbhykquA1CR4pmhaffEiavj6/
-                        0LpvwN9NQRv8n/JzqA8W1SsZPwCg342LqIqcGeTve3e2joyNyCWHuNYJQjTYur6o
-                        hpNRqAmlu7VxPez3ZzBpI6i5aw==
+            MIIG8jCCBdqgAwIBAgIMHNix/Nj+ddJt1NM0MA0GCSqGSIb3DQEBCwUAMIGNMQsw
+            CQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz
+            IERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t
+            UEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTE3
+            MDMwMzA5MTYyOVoXDTIwMDMwMjA5MTYyOVowgbcxCzAJBgNVBAYTAkRFMQ8wDQYD
+            VQQIDAZCZXJsaW4xDzANBgNVBAcMBkJlcmxpbjFFMEMGA1UECgw8VmVyZWluIHp1
+            ciBGb2VyZGVydW5nIGVpbmVzIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUu
+            IFYuMRkwFwYDVQQLDBBHZXNjaGFlZnRzc3RlbGxlMSQwIgYDVQQDDBtHUlA6IERG
+            Ti1BQUkgTWV0YWRhdGFzaWduZXIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+            AoICAQDBqe92eWnDZsYBmQ7SfrBXyhVpfZhw7msGLWC273nRfXCC6S8ZNIdeQtNy
+            JPUzZr+Xwpz//3I1E9Z+OMOOCg+sqCcMfP1Ue7H1paC8EXcjiU9hiYM3oC2gaNTY
+            MP9kESCbyMcMZigxFovJQSCxH3xCKucmKHSd96sQSOT2+0r1mkyMFN6iqevs4sYd
+            wY/pAroi7jPVEF91bUfdLYIdA2y1eIvrFOkFniM/5Iq/B42aCfg0XYyI19u9ucI8
+            KT1JDXEIbEUUtiJH8wu874V24aF7TRfzu0rMBIkC2jdKc6/jyrjYd7AVrTa/Zit2
+            eR0iWaaJj4QnalbvvpwsRN0b87Qy9fbiGZrsStpBZidB0Up6SRg/AzqF+KQHP9cc
+            bIFrPtSCQsVvXFsIbLL7V08zCQktE1gQJFZRBwbbsB+AIcxdBjFTDK3aBQpdZqFK
+            vUFNVnb9RErKvlUZnIA3HqebAZ7Bu6vSa/HfDc9zUDC+/weMUdFTB8Ga4SJQH0iP
+            NAdlYXpJV+phWBiVUD5xoOpkTLG/VskvgjL/svyT9vmXW9dU3Y1cGb6+2lVG0anZ
+            q++Qcn6VjDeYkWjWoUQoApQuXCMqyuR/M3YKzF+/nbwyb1+fKpSeSmFqhaJiWhij
+            eisQ7V2Brr785mXtcfoZyYBkEXj1tmULqi4+QpfrolAV0+JVfwIDAQABo4ICJDCC
+            AiAwQAYDVR0gBDkwNzARBg8rBgEEAYGtIYIsAQEEAwUwEQYPKwYBBAGBrSGCLAIB
+            BAMBMA8GDSsGAQQBga0hgiwBAQQwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCB4Aw
+            EwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFL57XEWybHvgX4dcgtCUOXAP
+            ReVGMB8GA1UdIwQYMBaAFGs6mIv58lOJ2uCtsjIeCR/oqjt0MIGNBgNVHR8EgYUw
+            gYIwP6A9oDuGOWh0dHA6Ly9jZHAxLnBjYS5kZm4uZGUvZGZuLWNhLWdsb2JhbC1n
+            Mi9wdWIvY3JsL2NhY3JsLmNybDA/oD2gO4Y5aHR0cDovL2NkcDIucGNhLmRmbi5k
+            ZS9kZm4tY2EtZ2xvYmFsLWcyL3B1Yi9jcmwvY2FjcmwuY3JsMIHbBggrBgEFBQcB
+            AQSBzjCByzAzBggrBgEFBQcwAYYnaHR0cDovL29jc3AucGNhLmRmbi5kZS9PQ1NQ
+            LVNlcnZlci9PQ1NQMEkGCCsGAQUFBzAChj1odHRwOi8vY2RwMS5wY2EuZGZuLmRl
+            L2Rmbi1jYS1nbG9iYWwtZzIvcHViL2NhY2VydC9jYWNlcnQuY3J0MEkGCCsGAQUF
+            BzAChj1odHRwOi8vY2RwMi5wY2EuZGZuLmRlL2Rmbi1jYS1nbG9iYWwtZzIvcHVi
+            L2NhY2VydC9jYWNlcnQuY3J0MA0GCSqGSIb3DQEBCwUAA4IBAQBvJrC4PXYsRF12
+            Iaw98jqZBVGj116hRFNsfnHQdUyJ7dYyiEXGDnuFJ3PxseIVivLpezzp50lD6JyZ
+            zme+lcPinDmBtPjuRmCqPnwjxI3JhRIUHmNoLBpxbv9rwqhQrQnOmPbCGCIGdMk9
+            yZDklnyWyb3eYvoJqMRLVxpz850WFE+Z0+3XBt8DiYvUbDHK2ZOAhGwMYmTL2L49
+            rdmp+Q9SdYAp1JX6tlYlY+HnFng4RlXVOPBeRSsv4w4FUhosT5d5V5JjAe7d1gPi
+            cERk+bNWXL1lUvdpWABqgbMAxJu/3Fh88QtdNlvwejP5EnQgiYvt5XmLFh/Iay53
+            Z3vKmXcU
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
@@ -285,7 +293,7 @@ ZOu6nAJj2skIW5yxztm1ikITRoks
         </Link>
     </XRD>
     <XRD>
-        <Subject>https://md.swamid.se/md/swamid-edugain-1.0.xml</Subject>
+        <Subject>https://mds.swamid.se/md/swamid-edugain-1.0.xml</Subject>
         <Link
             href="file://output/id_feds/swamid_edugain.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
@@ -294,21 +302,37 @@ ZOu6nAJj2skIW5yxztm1ikITRoks
                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
-                        MIIDdTCCAl0CBEY7EskwDQYJKoZIhvcNAQEEBQAwfzELMAkGA1UEBhMCU0UxEjAQBgNVBAgTCVN0b2Nr
-                        aG9sbTESMBAGA1UEBxMJU3RvY2tob2xtMREwDwYDVQQKEwhTV0FNSS5zZTEPMA0GA1UECxMGU1dBTUlE
-                        MSQwIgYDVQQDExtTV0FNSUQgbWV0YWRhdGEgc2lnbmVyIHYxLjEwHhcNMDcwNTA0MTEwMjMzWhcNMTcw
-                        NTAxMTEwMjMzWjB/MQswCQYDVQQGEwJTRTESMBAGA1UECBMJU3RvY2tob2xtMRIwEAYDVQQHEwlTdG9j
-                        a2hvbG0xETAPBgNVBAoTCFNXQU1JLnNlMQ8wDQYDVQQLEwZTV0FNSUQxJDAiBgNVBAMTG1NXQU1JRCBt
-                        ZXRhZGF0YSBzaWduZXIgdjEuMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM6wXN3pVCo9
-                        8SACS6JCHjSlWj83oNL/Ct+a9hmAx1NZSKg7lnEJYwWBvzJt5o/47jRQbGm94a45Yy5LVoXq4XyCKINh
-                        MxSwbRROvr8Hw6tgP1Z9dk5Jjejvus3gyaH3+EuEyP4aIjTlgmHDwW6HOv/m/4bOXSHB4Pisn7aocqU7
-                        kjpOn1f0cGodWOgGO4tP7KXs6ndcLhIkW+e/B80WEr0kocuc/pvx+aLuKSkttk/AfP1DFs5sqX31RXQK
-                        GrB/uEEYVv1Qvneig+RXGSbqk2Tab3BcLE/Cjnfi9Q9cH/jReL/YSSafGtl+EBgXKszxjMtELhiEWsL9
-                        RrMu1HUkBusCAwEAATANBgkqhkiG9w0BAQQFAAOCAQEAkXaa61gp/lkEDNRFc0bzH3ZyoUFgol64F1zd
-                        AwBS3xnsCkTnAXt3p452daEyz+0UR5J/BruMOyvR57w1m7ckVnx/sAgRgaD6gQlUWehjKPEsx8o5iDfO
-                        5R1V5Rn2o7+0VuIJDDObEAtMwqn2Nk6TTzsUVfz5y9nUQAxBz3EqXnnSgRwqSwRFyiVkpVfwtUHIolAf
-                        6O2N9Fg1jqoqt4mQCOyRZpD0/5SRYESTY6TJjTmvoh+zOPlIyEiw+Zrl/FWjXtBnRnz8AVT5NRzYiMHd
-                        bTHs0Fh6elsb5b9gTBo7j6+t36m7oo2KDaWWpMWvuWHugEqvIAXDCI/HzTbbiWm9NQ==
+                        MIIFyzCCA7OgAwIBAgIJAI9LJsUJXDMVMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
+                        BAYTAlNFMRIwEAYDVQQIDAlTdG9ja2hvbG0xEjAQBgNVBAcMCVN0b2NraG9sbTEO
+                        MAwGA1UECgwFU1VORVQxDzANBgNVBAsMBlNXQU1JRDEkMCIGA1UEAwwbU1dBTUlE
+                        IG1ldGFkYXRhIHNpZ25lciB2Mi4wMB4XDTE2MTIwNjA5MjgyMFoXDTM2MTIwNjA5
+                        MjgyMFowfDELMAkGA1UEBhMCU0UxEjAQBgNVBAgMCVN0b2NraG9sbTESMBAGA1UE
+                        BwwJU3RvY2tob2xtMQ4wDAYDVQQKDAVTVU5FVDEPMA0GA1UECwwGU1dBTUlEMSQw
+                        IgYDVQQDDBtTV0FNSUQgbWV0YWRhdGEgc2lnbmVyIHYyLjAwggIiMA0GCSqGSIb3
+                        DQEBAQUAA4ICDwAwggIKAoICAQDQVw72PnIo9QIeV439kQnPcxZh/LddKw86eIU+
+                        nMfl4TpjSIyqTu4KJSnXbJyqXg+jQj3RzE9BUblpGrR7okmQwOh2nh+5A6SmyTOR
+                        p7VEVT/Zw0GNnQi9gAW7J8Cy+Gnok4LeILI5u43hPylNKAnvs1+bo0ZlbHM6U5jm
+                        6MlO+lrYA9dZzoPQqoCQbr3OweAaq5g8H54HuZacpYa3Q2GnUa4v+xywjntPdSQU
+                        RTAbWWyJl3cHctX5+8UnX8nGCaxoBZqNp9PcEopyYJX8O1nrLumBMqu9Uh6GW1nx
+                        OHfKDLvUoykG3Dm704ENVs88KaJXB1qQNsjdlm14UI9XCZbHfnFVnQ53ehsGFMha
+                        Bf/Abd6v2wnhBLH/RxEUlw347qSeokw+SdDTSdW8jOEBiSqP/8BUzpCcbGlgAsVO
+                        NKUS0K7IB2Bb79YYhyMvmJl24BGtkX+VM/mv47dxOtfzNFCMtUcJ2Dluv0xJG8xI
+                        ot7umx/kbMBLuq7WdWELZJrgpt2bb9sXtYBpuxtGCW5g7+U7MNN1aKCiCSfq09YH
+                        qu2DsU7HHAxEcGFXBiepBliCwZ24WLQh53bA3rihaln7SjdapT9VuSTpCvytb9RX
+                        rq39mVuHMXvWYOG20XTV0+8U2vnsjAwsy28xPAcrLWRWoZbRJ+RoGp6L3GACq+t+
+                        HPIukwIDAQABo1AwTjAdBgNVHQ4EFgQUQ2iqKQV/mMZDeJDtLXvy0Bsn/BQwHwYD
+                        VR0jBBgwFoAUQ2iqKQV/mMZDeJDtLXvy0Bsn/BQwDAYDVR0TBAUwAwEB/zANBgkq
+                        hkiG9w0BAQsFAAOCAgEAHviIAfS8viUN8Qk//U1p6Z1VK5718NeS7uqabug/SwhL
+                        Vxtg/0x9FPJYf05HXj4moAf2W1ZLnhr0pnEPGDbdHAgDC672fpaAV7DO95d7xubc
+                        rofR7Of2fehYSUZbXBWFiQ+xB5QfRsUFgB/qgHUolgn+4RXniiBYlWe6QJVncHx+
+                        FtxD+vh1l5rLNkJgJLw2Lt3pbemSxUvv0CJtnK4jt2y95GsWGu1uSsVLrs0PR1Lj
+                        kuxL6zZH4Pp9yjRDOUhbVYAnQ017mdcjvHYtp7c4GIWgyaBkDoMtU6fAt70QpeGj
+                        XhecXk7Llx+oYNdZn14ZdFPRGMyAESLrT4Zf9M7QS3ypnWn/Ux0SwKWbnPUeRVbO
+                        VZZ+M0jmdYK6o+UU5xH3peRWSJIjjRaKjbVlW5GgHwGFmQc/LN+va2jjThRsQWWt
+                        zEwObijedInQ6wfL/VzFAwlWWoDAzKK9qnK4Rf3ORKkvhKrUa//2OYnZD0kHtHiC
+                        OL+iFRLtJ/DQP5iZAF+M1Hta7acLmQ8v7Mn1ZR9lyDWzFx57VOKKtJ6RAmBvxOdP
+                        8cIgBNvLAEdXh2knOLqYU/CeaGkxTD7Y0SEKx6OxEEdafba//MBkVLt4bRoLXts6
+                        6JY25FqFh3eJZjR6h4W1NW8KnBWuy+ITGfXxoJSsX78/pwAY+v32jRxMZGUi1J4=
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
