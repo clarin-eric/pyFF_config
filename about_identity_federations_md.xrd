@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XRDS
-    xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
+<XRDS xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
     <XRD>
         <Subject>https://engine.surfconext.nl/authentication/proxy/idps-metadata/key:20140505?sp-entity-id=https://sp.catalog.clarin.eu</Subject>
-        <Link
-            href="file://output/id_feds/surfconext.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/surfconext.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>SURFconext</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
                         MIID3zCCAsegAwIBAgIJAMVC9xn1ZfsuMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYD
@@ -31,20 +27,16 @@
                         9LgiZCdYSr464I7yXQY9o6FiNtSKZkQO8EsscJPPy/Zp4uHAnADWACkOUHiCbcKi
                         UUFu66dX0Wr/v53Gekz487GgVRs8HEeT9MU1reBKRgdENR8PNg4rbQfLc3YQKLWK
                         7yWnn/RenjDpuCiePj8N8/80tGgrNgK/6fzM3zI18sSywnXLswxqDb/J+jgVxnQ6
-                        MrsTf1urM8MnfcxG/82oHIwfMh/sXPCZpo+DTLkhQxctJ3M=
-                    </ds:X509Certificate>
+                        MrsTf1urM8MnfcxG/82oHIwfMh/sXPCZpo+DTLkhQxctJ3M= </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
     </XRD>
     <XRD>
         <Subject>https://eduid.at/md/aconet-registered.xml</Subject>
-        <Link
-            href="file://output/id_feds/aconet.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/aconet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>ACOnet</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
                         MIIFGDCCBACgAwIBAgIJAJS+3dUtfj7NMA0GCSqGSIb3DQEBBQUAMIG4MQswCQYD
@@ -74,60 +66,56 @@
                         gVFxsxYimah1JQIMAJPHFYgwhEEPMmuwpCd0S9Lj6yVc0VVW0NBeaqTTBRRAQdKX
                         ekwKYe5tVVuZV/zyXDaXJbCVwEz620VQjJ7o0aU06eJ8Sr3Q4DpXz74b/baWOhA9
                         3tuzubdIm+mTaEDggMgAV3cZJg+djx2eSmyDQVwxaOZ3ESiR1Gcoz0vCsg8smrZJ
-                        wM0aEN5quFWfiFFE
-                    </ds:X509Certificate>
+                        wM0aEN5quFWfiFFE </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
     </XRD>
     <XRD>
         <Subject>https://www.aai.dfn.de/fileadmin/metadata/dfn-aai-basic-metadata.xml</Subject>
-        <Link
-            href="file://output/id_feds/dfn-aai-basic.xml"
+        <Link href="file://output/id_feds/dfn-aai-basic.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>DFN-AAI Advanced+Basic</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
-            MIIG8jCCBdqgAwIBAgIMHNix/Nj+ddJt1NM0MA0GCSqGSIb3DQEBCwUAMIGNMQsw
-            CQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz
-            IERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t
-            UEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTE3
-            MDMwMzA5MTYyOVoXDTIwMDMwMjA5MTYyOVowgbcxCzAJBgNVBAYTAkRFMQ8wDQYD
-            VQQIDAZCZXJsaW4xDzANBgNVBAcMBkJlcmxpbjFFMEMGA1UECgw8VmVyZWluIHp1
-            ciBGb2VyZGVydW5nIGVpbmVzIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUu
-            IFYuMRkwFwYDVQQLDBBHZXNjaGFlZnRzc3RlbGxlMSQwIgYDVQQDDBtHUlA6IERG
-            Ti1BQUkgTWV0YWRhdGFzaWduZXIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
-            AoICAQDBqe92eWnDZsYBmQ7SfrBXyhVpfZhw7msGLWC273nRfXCC6S8ZNIdeQtNy
-            JPUzZr+Xwpz//3I1E9Z+OMOOCg+sqCcMfP1Ue7H1paC8EXcjiU9hiYM3oC2gaNTY
-            MP9kESCbyMcMZigxFovJQSCxH3xCKucmKHSd96sQSOT2+0r1mkyMFN6iqevs4sYd
-            wY/pAroi7jPVEF91bUfdLYIdA2y1eIvrFOkFniM/5Iq/B42aCfg0XYyI19u9ucI8
-            KT1JDXEIbEUUtiJH8wu874V24aF7TRfzu0rMBIkC2jdKc6/jyrjYd7AVrTa/Zit2
-            eR0iWaaJj4QnalbvvpwsRN0b87Qy9fbiGZrsStpBZidB0Up6SRg/AzqF+KQHP9cc
-            bIFrPtSCQsVvXFsIbLL7V08zCQktE1gQJFZRBwbbsB+AIcxdBjFTDK3aBQpdZqFK
-            vUFNVnb9RErKvlUZnIA3HqebAZ7Bu6vSa/HfDc9zUDC+/weMUdFTB8Ga4SJQH0iP
-            NAdlYXpJV+phWBiVUD5xoOpkTLG/VskvgjL/svyT9vmXW9dU3Y1cGb6+2lVG0anZ
-            q++Qcn6VjDeYkWjWoUQoApQuXCMqyuR/M3YKzF+/nbwyb1+fKpSeSmFqhaJiWhij
-            eisQ7V2Brr785mXtcfoZyYBkEXj1tmULqi4+QpfrolAV0+JVfwIDAQABo4ICJDCC
-            AiAwQAYDVR0gBDkwNzARBg8rBgEEAYGtIYIsAQEEAwUwEQYPKwYBBAGBrSGCLAIB
-            BAMBMA8GDSsGAQQBga0hgiwBAQQwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCB4Aw
-            EwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFL57XEWybHvgX4dcgtCUOXAP
-            ReVGMB8GA1UdIwQYMBaAFGs6mIv58lOJ2uCtsjIeCR/oqjt0MIGNBgNVHR8EgYUw
-            gYIwP6A9oDuGOWh0dHA6Ly9jZHAxLnBjYS5kZm4uZGUvZGZuLWNhLWdsb2JhbC1n
-            Mi9wdWIvY3JsL2NhY3JsLmNybDA/oD2gO4Y5aHR0cDovL2NkcDIucGNhLmRmbi5k
-            ZS9kZm4tY2EtZ2xvYmFsLWcyL3B1Yi9jcmwvY2FjcmwuY3JsMIHbBggrBgEFBQcB
-            AQSBzjCByzAzBggrBgEFBQcwAYYnaHR0cDovL29jc3AucGNhLmRmbi5kZS9PQ1NQ
-            LVNlcnZlci9PQ1NQMEkGCCsGAQUFBzAChj1odHRwOi8vY2RwMS5wY2EuZGZuLmRl
-            L2Rmbi1jYS1nbG9iYWwtZzIvcHViL2NhY2VydC9jYWNlcnQuY3J0MEkGCCsGAQUF
-            BzAChj1odHRwOi8vY2RwMi5wY2EuZGZuLmRlL2Rmbi1jYS1nbG9iYWwtZzIvcHVi
-            L2NhY2VydC9jYWNlcnQuY3J0MA0GCSqGSIb3DQEBCwUAA4IBAQBvJrC4PXYsRF12
-            Iaw98jqZBVGj116hRFNsfnHQdUyJ7dYyiEXGDnuFJ3PxseIVivLpezzp50lD6JyZ
-            zme+lcPinDmBtPjuRmCqPnwjxI3JhRIUHmNoLBpxbv9rwqhQrQnOmPbCGCIGdMk9
-            yZDklnyWyb3eYvoJqMRLVxpz850WFE+Z0+3XBt8DiYvUbDHK2ZOAhGwMYmTL2L49
-            rdmp+Q9SdYAp1JX6tlYlY+HnFng4RlXVOPBeRSsv4w4FUhosT5d5V5JjAe7d1gPi
-            cERk+bNWXL1lUvdpWABqgbMAxJu/3Fh88QtdNlvwejP5EnQgiYvt5XmLFh/Iay53
-            Z3vKmXcU
+                        MIIG8jCCBdqgAwIBAgIMHNix/Nj+ddJt1NM0MA0GCSqGSIb3DQEBCwUAMIGNMQsw
+                        CQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz
+                        IERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t
+                        UEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTE3
+                        MDMwMzA5MTYyOVoXDTIwMDMwMjA5MTYyOVowgbcxCzAJBgNVBAYTAkRFMQ8wDQYD
+                        VQQIDAZCZXJsaW4xDzANBgNVBAcMBkJlcmxpbjFFMEMGA1UECgw8VmVyZWluIHp1
+                        ciBGb2VyZGVydW5nIGVpbmVzIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUu
+                        IFYuMRkwFwYDVQQLDBBHZXNjaGFlZnRzc3RlbGxlMSQwIgYDVQQDDBtHUlA6IERG
+                        Ti1BQUkgTWV0YWRhdGFzaWduZXIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+                        AoICAQDBqe92eWnDZsYBmQ7SfrBXyhVpfZhw7msGLWC273nRfXCC6S8ZNIdeQtNy
+                        JPUzZr+Xwpz//3I1E9Z+OMOOCg+sqCcMfP1Ue7H1paC8EXcjiU9hiYM3oC2gaNTY
+                        MP9kESCbyMcMZigxFovJQSCxH3xCKucmKHSd96sQSOT2+0r1mkyMFN6iqevs4sYd
+                        wY/pAroi7jPVEF91bUfdLYIdA2y1eIvrFOkFniM/5Iq/B42aCfg0XYyI19u9ucI8
+                        KT1JDXEIbEUUtiJH8wu874V24aF7TRfzu0rMBIkC2jdKc6/jyrjYd7AVrTa/Zit2
+                        eR0iWaaJj4QnalbvvpwsRN0b87Qy9fbiGZrsStpBZidB0Up6SRg/AzqF+KQHP9cc
+                        bIFrPtSCQsVvXFsIbLL7V08zCQktE1gQJFZRBwbbsB+AIcxdBjFTDK3aBQpdZqFK
+                        vUFNVnb9RErKvlUZnIA3HqebAZ7Bu6vSa/HfDc9zUDC+/weMUdFTB8Ga4SJQH0iP
+                        NAdlYXpJV+phWBiVUD5xoOpkTLG/VskvgjL/svyT9vmXW9dU3Y1cGb6+2lVG0anZ
+                        q++Qcn6VjDeYkWjWoUQoApQuXCMqyuR/M3YKzF+/nbwyb1+fKpSeSmFqhaJiWhij
+                        eisQ7V2Brr785mXtcfoZyYBkEXj1tmULqi4+QpfrolAV0+JVfwIDAQABo4ICJDCC
+                        AiAwQAYDVR0gBDkwNzARBg8rBgEEAYGtIYIsAQEEAwUwEQYPKwYBBAGBrSGCLAIB
+                        BAMBMA8GDSsGAQQBga0hgiwBAQQwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCB4Aw
+                        EwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFL57XEWybHvgX4dcgtCUOXAP
+                        ReVGMB8GA1UdIwQYMBaAFGs6mIv58lOJ2uCtsjIeCR/oqjt0MIGNBgNVHR8EgYUw
+                        gYIwP6A9oDuGOWh0dHA6Ly9jZHAxLnBjYS5kZm4uZGUvZGZuLWNhLWdsb2JhbC1n
+                        Mi9wdWIvY3JsL2NhY3JsLmNybDA/oD2gO4Y5aHR0cDovL2NkcDIucGNhLmRmbi5k
+                        ZS9kZm4tY2EtZ2xvYmFsLWcyL3B1Yi9jcmwvY2FjcmwuY3JsMIHbBggrBgEFBQcB
+                        AQSBzjCByzAzBggrBgEFBQcwAYYnaHR0cDovL29jc3AucGNhLmRmbi5kZS9PQ1NQ
+                        LVNlcnZlci9PQ1NQMEkGCCsGAQUFBzAChj1odHRwOi8vY2RwMS5wY2EuZGZuLmRl
+                        L2Rmbi1jYS1nbG9iYWwtZzIvcHViL2NhY2VydC9jYWNlcnQuY3J0MEkGCCsGAQUF
+                        BzAChj1odHRwOi8vY2RwMi5wY2EuZGZuLmRlL2Rmbi1jYS1nbG9iYWwtZzIvcHVi
+                        L2NhY2VydC9jYWNlcnQuY3J0MA0GCSqGSIb3DQEBCwUAA4IBAQBvJrC4PXYsRF12
+                        Iaw98jqZBVGj116hRFNsfnHQdUyJ7dYyiEXGDnuFJ3PxseIVivLpezzp50lD6JyZ
+                        zme+lcPinDmBtPjuRmCqPnwjxI3JhRIUHmNoLBpxbv9rwqhQrQnOmPbCGCIGdMk9
+                        yZDklnyWyb3eYvoJqMRLVxpz850WFE+Z0+3XBt8DiYvUbDHK2ZOAhGwMYmTL2L49
+                        rdmp+Q9SdYAp1JX6tlYlY+HnFng4RlXVOPBeRSsv4w4FUhosT5d5V5JjAe7d1gPi
+                        cERk+bNWXL1lUvdpWABqgbMAxJu/3Fh88QtdNlvwejP5EnQgiYvt5XmLFh/Iay53 Z3vKmXcU
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
@@ -135,12 +123,9 @@
     </XRD>
     <XRD>
         <Subject>https://haka.funet.fi/metadata/haka-metadata.xml</Subject>
-        <Link
-            href="file://output/id_feds/haka.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/haka.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>Haka</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
                         MIIEnzCCA4egAwIBAgIRAIftO2AWO3NG7PUgVDZNmKQwDQYJKoZIhvcNAQELBQAw
@@ -167,76 +152,68 @@
                         KeTO1wqko9gPkh1DvjHhOs/hedrJiBCOpV4XPKAkcnEJSHnD6ZXJG055ss2VHzwE
                         QmenDkqYdRWkcnzhRjij8bnOLiYnLl+PtD/IJ+U/8jrV9HToRmOpyHtwO1UIpHIE
                         Lpp4940BYZ3t2Krd14yIUFlKRXJCMFuOf21RWeM6WZ+gM2hrtJkRWl7Y8N4ankG+
-                        t4VO/Uc7h6/tveL871eqrETLJKOBSiYajZxhOyJwwrpa/5M=
-                    </ds:X509Certificate>
+                        t4VO/Uc7h6/tveL871eqrETLJKOBSiYajZxhOyJwwrpa/5M= </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
     </XRD>
     <XRD>
         <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
-        <Link
-            href="file://output/id_feds/belnet.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/belnet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>Belnet</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
-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
-ZOu6nAJj2skIW5yxztm1ikITRoks
-                    </ds:X509Certificate>
+                        MIIHkTCCBnmgAwIBAgIQARoAsKydn1NT7dKyLMSZHTANBgkqhkiG9w0BAQsFADBz
+                        MQswCQYDVQQGEwJOTDEWMBQGA1UECBMNTm9vcmQtSG9sbGFuZDESMBAGA1UEBxMJ
+                        QW1zdGVyZGFtMQ8wDQYDVQQKEwZURVJFTkExJzAlBgNVBAMTHlRFUkVOQSBTU0wg
+                        SGlnaCBBc3N1cmFuY2UgQ0EgMzAeFw0xNjA3MDQwMDAwMDBaFw0xODA3MDkxMjAw
+                        MDBaMIIBGDEaMBgGA1UEDwwRR292ZXJubWVudCBFbnRpdHkxEzARBgsrBgEEAYI3
+                        PAIBAxMCQkUxFTATBgNVBAUTDDA4NzUgMzk2IDY5MDEbMBkGA1UECRMSMjMxLCBh
+                        dmVudWUgTG91aXNlMQ0wCwYDVQQREwQxMDUwMQswCQYDVQQGEwJCRTERMA8GA1UE
+                        CBMIQnJ1c3NlbHMxETAPBgNVBAcTCEJydXNzZWxzMT0wOwYDVQQKEzRCZWxuZXQg
+                        KExlIHJlc2VhdSB0ZWxlbWF0aXF1ZSBiZWxnZSBkZSBsYSByZWNoZXJjaGUpMREw
+                        DwYDVQQLEwhTZXJ2aWNlczEdMBsGA1UEAxMUZmVkZXJhdGlvbi5iZWxuZXQuYmUw
+                        ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4gMTk288EM7IMgE9DKJ8A
+                        g2MMMPzf7Mpg6BxlcCCjd8cmQvmGYojxfmoGQDAE/qzmtAX8sw543qZV/obF7co5
+                        qNXOMWq61/2JmMwhD6Y9JJKAHOE2iMQZ2HLHyg9mNQWPAeJFLkHqn/Eq6sSPRZEk
+                        7XvHVNe9EHHd+U1DxK6iRxtxU9MpQwy9TfrraxMVn+VboBMkpAHjaTgaQ3eAiWZF
+                        KpgnoPR+A1vRmio0KSdAAW7kDdLY/aKLQrfgmsoNd7F55GsuJPsR82s3t57YezJS
+                        hTYJxQO0DO+6bYVGLv2+vzoImvnSN6vyFj48hUetjXHInAmaeQr2GhgijY7BmAM1
+                        AgMBAAGjggN4MIIDdDAfBgNVHSMEGDAWgBTCuIXX4bkTvdFIvP1e3H2QQnqKqTAd
+                        BgNVHQ4EFgQU5vjU5NvRrXOxebPpa/qmuouwGbIwHwYDVR0RBBgwFoIUZmVkZXJh
+                        dGlvbi5iZWxuZXQuYmUwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUF
+                        BwMBBggrBgEFBQcDAjCBhQYDVR0fBH4wfDA8oDqgOIY2aHR0cDovL2NybDMuZGln
+                        aWNlcnQuY29tL1RFUkVOQVNTTEhpZ2hBc3N1cmFuY2VDQTMuY3JsMDygOqA4hjZo
+                        dHRwOi8vY3JsNC5kaWdpY2VydC5jb20vVEVSRU5BU1NMSGlnaEFzc3VyYW5jZUNB
+                        My5jcmwwSwYDVR0gBEQwQjA3BglghkgBhv1sAgEwKjAoBggrBgEFBQcCARYcaHR0
+                        cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAHBgVngQwBATB7BggrBgEFBQcBAQRv
+                        MG0wJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBFBggrBgEF
+                        BQcwAoY5aHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL1RFUkVOQVNTTEhpZ2hB
+                        c3N1cmFuY2VDQTMuY3J0MAwGA1UdEwEB/wQCMAAwggGABgorBgEEAdZ5AgQCBIIB
+                        cASCAWwBagB2AKS5CZC0GFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABVbVi
+                        390AAAQDAEcwRQIgJrEIjnJd3ztvzvSPtxHwP9XF8CmEr9c4ILakoZCLEmkCIQDT
+                        alomLaKQV0YTXZM/1LaPURhY1RTi8sJvaXsVekYDRAB3AGj2mPgfZIK+OozuuSgd
+                        TPxxUV1nk9RE0QpnrLtPT/vEAAABVbVi358AAAQDAEgwRgIhAL/Rj/VAbZ1ho8Gw
+                        aQyJjz05V9otcklrWhtLg2tzPCS6AiEAtMEtdHr3cuUw8yyPZs5TCeoDoq6KmVLr
+                        UYWD+ozRdXMAdwBWFAaaL9fC7NP14b1Esj7HRna5vJkRXMDvlJhV1onQ3QAAAVW1
+                        Yt/iAAAEAwBIMEYCIQCAEWK8GRqSioFHA9CDdDwxPALwrX5wkpFUV5cECrhXwgIh
+                        AN10qVaG8k2lbUpF+xcSDAwR7X1NaCTkmuGzESdCkR3bMA0GCSqGSIb3DQEBCwUA
+                        A4IBAQB6zpM0EkleUHZ3/JjptlrsjOMeXO2A79LGONmRa2rT6t3jN1A8zxCi9tOJ
+                        bIjWFy14haFROLNRk74yVMUDSTW0QOioXuuRJ/OTjEQeKFODDqUpUNWSW9fDdsc2
+                        M2Ei+UCmitx12aYZ2y2zsPEG7B4H1QqvGHsHYdmkBAf+7wTLXJPz8gf3JRsckOGX
+                        ROlUBdlNFwTGRorkerTVeSUS9ZB3uW+TNhSZXkdcLoekQM+km5p1UoBQarMIHbp4
+                        day6N05ylzDHMw1EuVKlsdXPh4EpHIe/YJ/AIGBsFDfQnqTM8mpBjCp8EJYxlxPO
+                        ZOu6nAJj2skIW5yxztm1ikITRoks </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
     </XRD>
     <XRD>
         <Subject>https://metadata.eduid.cz/entities/eduid+idp</Subject>
-        <Link
-            href="file://output/id_feds/eduidcz.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/eduidcz.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>eduID.cz</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
                         MIIDCjCCAfICCQDeyJjos8lOlTANBgkqhkiG9w0BAQUFADBHMRIwEAYKCZImiZPy
@@ -255,20 +232,17 @@ ZOu6nAJj2skIW5yxztm1ikITRoks
                         70FMq6nIO38rRdSbqROZTqdnzOupOKHJgxZI4FFGzRCSfDEqW5YhlTnUUVMyD2YB
                         zonXReSFbrhofcMbEDlJj/B7RVnqcCmQJRy28bqS6wK7uJpYNt1HQwASbAnrzUgO
                         FIbaiwkFIyMuxjzSuXeyl2UDTtTlINECv7Y9FMgifwq2Fyms/TskZzvDEHvAsZxV
-                        bqg7GKeCsFXAnGL79xM=
-                    </ds:X509Certificate>
+                        bqg7GKeCsFXAnGL79xM= </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
     </XRD>
     <XRD>
         <Subject>https://mds.swamid.se/md/swamid-edugain-1.0.xml</Subject>
-        <Link
-            href="file://output/id_feds/swamid_edugain.xml"
+        <Link href="file://output/id_feds/swamid_edugain.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>SWAMID eduGAIN upstream</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
                         MIIFyzCCA7OgAwIBAgIJAI9LJsUJXDMVMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
@@ -309,63 +283,56 @@ ZOu6nAJj2skIW5yxztm1ikITRoks
     </XRD>
     <XRD>
         <Subject>https://rctsaai-rr.fccn.pt/rr/signedmetadata/federation/UkNUU2FhaQ~~/metadata.xml</Subject>
-        <Link
-            href="file://output/id_feds/rcts.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/rcts.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>ArnesAAI eduGAIN upstream</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
-MIIDKjCCAhICCQCDDOQ8xAeQZzANBgkqhkiG9w0BAQUFADBXMQswCQYDVQQGEwJQ
-VDEPMA0GA1UEBwwGTGlzYm9uMRwwGgYDVQQKDBNEZWZhdWx0IENvbXBhbnkgTHRk
-MRkwFwYDVQQDDBBwdG1ldGFkYXRhc2lnbmVyMB4XDTEyMTAwMTE0MDAzMFoXDTIy
-MDkyOTE0MDAzMFowVzELMAkGA1UEBhMCUFQxDzANBgNVBAcMBkxpc2JvbjEcMBoG
-A1UECgwTRGVmYXVsdCBDb21wYW55IEx0ZDEZMBcGA1UEAwwQcHRtZXRhZGF0YXNp
-Z25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMs6/IYoQPnO2w9a
-7teRTSCZZSNo8LzftYgZcALAoDjXTXI7vKAPNTFmBHFq0dFiSAUjPDFxFLgC3c0n
-rL2QiP4eNgsKycTk8aRryBiIvh3gOOw6YNYcCPSO4eJj0eaGopEQttB6I/zkMy+p
-E1/xnFqP/UzA/XTpnHMgSbf1NLEWfgEkhW2rZ557gPBP+511HCw+Xlm4cGKeh696
-dtmcGUrgZ5iFhpw0ZlQcWaAgcOw1klY+y8A47aS6fTWsu9cOA7IKwMUHgt8P6Ozt
-Y7xAUh1W296h3RteiJTYbCgoPEkENB7xVitOg4QG/aYhkQh20PhHxii44Yg9GRBX
-dM13ejMCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAO2cN5wawlmZA5s8qDm1thrkQ
-4i7ubyfI69CEFXPdplrSH4fxD1oLEtXp/ofqUlxuSmXVqXVQrG+BPhXV9deXlb9U
-P3DbFcmEcd7LhVgYu0yJ0Gm73sDojHozilJG2B1lCk/tt+HjsM7tNIbbl/rgG/vB
-zVDIAvfqpn2+/TYQNi98wHMWIvYjsid4J2kuyK4HLr/9xG1IwGLzKUVg6gGVPPpr
-UVcH9GLbwzCZJKcCebJXqAw1zxtMJL0BnYhkKcZQwnx3wz8pQ6NoGVHU0vUEyQXs
-nnrKODFBhk0JV06Ofkx/q38Z1Zl7a0yO81iya9dL/fVXNwE5AzguBOThO9bSVg==
+                        MIIDKjCCAhICCQCDDOQ8xAeQZzANBgkqhkiG9w0BAQUFADBXMQswCQYDVQQGEwJQ
+                        VDEPMA0GA1UEBwwGTGlzYm9uMRwwGgYDVQQKDBNEZWZhdWx0IENvbXBhbnkgTHRk
+                        MRkwFwYDVQQDDBBwdG1ldGFkYXRhc2lnbmVyMB4XDTEyMTAwMTE0MDAzMFoXDTIy
+                        MDkyOTE0MDAzMFowVzELMAkGA1UEBhMCUFQxDzANBgNVBAcMBkxpc2JvbjEcMBoG
+                        A1UECgwTRGVmYXVsdCBDb21wYW55IEx0ZDEZMBcGA1UEAwwQcHRtZXRhZGF0YXNp
+                        Z25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMs6/IYoQPnO2w9a
+                        7teRTSCZZSNo8LzftYgZcALAoDjXTXI7vKAPNTFmBHFq0dFiSAUjPDFxFLgC3c0n
+                        rL2QiP4eNgsKycTk8aRryBiIvh3gOOw6YNYcCPSO4eJj0eaGopEQttB6I/zkMy+p
+                        E1/xnFqP/UzA/XTpnHMgSbf1NLEWfgEkhW2rZ557gPBP+511HCw+Xlm4cGKeh696
+                        dtmcGUrgZ5iFhpw0ZlQcWaAgcOw1klY+y8A47aS6fTWsu9cOA7IKwMUHgt8P6Ozt
+                        Y7xAUh1W296h3RteiJTYbCgoPEkENB7xVitOg4QG/aYhkQh20PhHxii44Yg9GRBX
+                        dM13ejMCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAO2cN5wawlmZA5s8qDm1thrkQ
+                        4i7ubyfI69CEFXPdplrSH4fxD1oLEtXp/ofqUlxuSmXVqXVQrG+BPhXV9deXlb9U
+                        P3DbFcmEcd7LhVgYu0yJ0Gm73sDojHozilJG2B1lCk/tt+HjsM7tNIbbl/rgG/vB
+                        zVDIAvfqpn2+/TYQNi98wHMWIvYjsid4J2kuyK4HLr/9xG1IwGLzKUVg6gGVPPpr
+                        UVcH9GLbwzCZJKcCebJXqAw1zxtMJL0BnYhkKcZQwnx3wz8pQ6NoGVHU0vUEyQXs
+                        nnrKODFBhk0JV06Ofkx/q38Z1Zl7a0yO81iya9dL/fVXNwE5AzguBOThO9bSVg==
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
     </XRD>
-         <XRD>
+    <XRD>
         <Subject>https://mds.edugain.org/</Subject>
-        <Link
-            href="file://output/id_feds/edugain.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/edugain.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>eduGAIN</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
-MIIC1DCCAbwCCQDDDZyGtn6K8TANBgkqhkiG9w0BAQUFADAsMQ4wDAYDVQQKEwVH
-RUFOVDEaMBgGA1UEAxMRZWR1R0FJTiBTaWduZXIgQ0EwHhcNMTQwNzAyMTQzNDQ5
-WhcNMTkwNzAxMTQzNDQ5WjAsMQ4wDAYDVQQKEwVHRUFOVDEaMBgGA1UEAxMRZWR1
-R0FJTiBTaWduZXIgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCR
-fl1zhkaFveJvJtS03bRIO3k77q2s5m+c6sQ83j71rIad+vGCO29S4JHBXHI/U57y
-NbNLgoKzl0MI4WQrs4KT/y+LPMFB9M0lNrALQd/op6PNc7CWKMN1yV8V/L74/vap
-Rlb90gPVJABHmoAfQmjyMXLW38KLwzK1qEpKUIxPBfQMBawmh0gC2T5ndZndcMPp
-gsMXyG2AZ4QGSOt4tgpspjTSRY++X+gi9WUuWzsEHHdFhCR9UYQ6+1glMVheJjVm
-oD0b9V/KQ0BF/1zry2jfWlchFeILlWbWgiWsIBA4BPNHqFW42qGgUr9DI3FzRLHX
-qF2N2f592tzcTeDZ11ejAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBACq0ER17moQB
-/39SstbsWdpGQMIsrHZ+ERF7jYdjnE/63xBfMIVFQo2G1PW0cZ1ckpLIQMyKyTAv
-9RAVxv3WVnQ9IGh715jP/QHH7ycTM7oE5XdpNzNMRDMevrtTa1T/GX6G6+cc73JG
-VoJ9JQNXbLv5bspyG9kkIu9VQqUqlrUWTjzBBysAYj4kR1gorrUmI7l2GBrrcGej
-Q57VXdUxaCKzQita0aSSzbHQ+2BxcvYV1r4QWm6Jv8HTn3c4B1d6QbaSEgGHSCkp
-CxwOq82gt1OM/hOz7wzkIQohaYEo3koNlGsat5Hc24VffcosRmNFYmGU+dCnwHDO
-YuxCFwLHAcg=
-                    </ds:X509Certificate>
+                        MIIC1DCCAbwCCQDDDZyGtn6K8TANBgkqhkiG9w0BAQUFADAsMQ4wDAYDVQQKEwVH
+                        RUFOVDEaMBgGA1UEAxMRZWR1R0FJTiBTaWduZXIgQ0EwHhcNMTQwNzAyMTQzNDQ5
+                        WhcNMTkwNzAxMTQzNDQ5WjAsMQ4wDAYDVQQKEwVHRUFOVDEaMBgGA1UEAxMRZWR1
+                        R0FJTiBTaWduZXIgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCR
+                        fl1zhkaFveJvJtS03bRIO3k77q2s5m+c6sQ83j71rIad+vGCO29S4JHBXHI/U57y
+                        NbNLgoKzl0MI4WQrs4KT/y+LPMFB9M0lNrALQd/op6PNc7CWKMN1yV8V/L74/vap
+                        Rlb90gPVJABHmoAfQmjyMXLW38KLwzK1qEpKUIxPBfQMBawmh0gC2T5ndZndcMPp
+                        gsMXyG2AZ4QGSOt4tgpspjTSRY++X+gi9WUuWzsEHHdFhCR9UYQ6+1glMVheJjVm
+                        oD0b9V/KQ0BF/1zry2jfWlchFeILlWbWgiWsIBA4BPNHqFW42qGgUr9DI3FzRLHX
+                        qF2N2f592tzcTeDZ11ejAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBACq0ER17moQB
+                        /39SstbsWdpGQMIsrHZ+ERF7jYdjnE/63xBfMIVFQo2G1PW0cZ1ckpLIQMyKyTAv
+                        9RAVxv3WVnQ9IGh715jP/QHH7ycTM7oE5XdpNzNMRDMevrtTa1T/GX6G6+cc73JG
+                        VoJ9JQNXbLv5bspyG9kkIu9VQqUqlrUWTjzBBysAYj4kR1gorrUmI7l2GBrrcGej
+                        Q57VXdUxaCKzQita0aSSzbHQ+2BxcvYV1r4QWm6Jv8HTn3c4B1d6QbaSEgGHSCkp
+                        CxwOq82gt1OM/hOz7wzkIQohaYEo3koNlGsat5Hc24VffcosRmNFYmGU+dCnwHDO
+                        YuxCFwLHAcg= </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
