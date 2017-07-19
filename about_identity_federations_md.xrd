@@ -173,37 +173,6 @@
             </ds:KeyInfo>
         </Link>
     </XRD>
-<!--   <XRD>
-        <Subject>https://kalmar2.org/simplesaml/module.php/aggregator/?id=kalmarcentral2&amp;set=saml2</Subject>
-        <Link
-            href="file://output/id_feds/kalmar.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
-            <Title>Kalmar Union</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-                <ds:X509Data>
-                    <ds:X509Certificate>
-                        MIIC+zCCAmSgAwIBAgIJALIv7VqXanQYMA0GCSqGSIb3DQEBBQUAMF0xCzAJBgNV
-                        BAYTAk5PMRIwEAYDVQQIEwlUcm9uZGhlaW0xEjAQBgNVBAcTCVRyb25kaGVpbTEQ
-                        MA4GA1UEChMHVU5JTkVUVDEUMBIGA1UEAxMLa2FsbWFyMi5vcmcwHhcNMDkxMDI2
-                        MDY1OTQyWhcNMTkxMDI2MDY1OTQyWjBdMQswCQYDVQQGEwJOTzESMBAGA1UECBMJ
-                        VHJvbmRoZWltMRIwEAYDVQQHEwlUcm9uZGhlaW0xEDAOBgNVBAoTB1VOSU5FVFQx
-                        FDASBgNVBAMTC2thbG1hcjIub3JnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKB
-                        gQCi7bEwud2nKm9FSojyIFGXN1p2ZGpUOKSFxhmeicCujHQr1VYUhyXBDHONwPDt
-                        K9PdHFZ4lLgLKcAIqUcOoAWr65m/MJJVkX0P7TUTZ6OS4mDAo1NsZexZxTBof9hC
-                        wnFz9dbqEThqZw2UtyEDnhW6kCb6SBd+2Yjvd+YDZg8lfwIDAQABo4HCMIG/MB0G
-                        A1UdDgQWBBS2Sw/w4drjYrTiAHeWXyN2W1j1iDCBjwYDVR0jBIGHMIGEgBS2Sw/w
-                        4drjYrTiAHeWXyN2W1j1iKFhpF8wXTELMAkGA1UEBhMCTk8xEjAQBgNVBAgTCVRy
-                        b25kaGVpbTESMBAGA1UEBxMJVHJvbmRoZWltMRAwDgYDVQQKEwdVTklORVRUMRQw
-                        EgYDVQQDEwtrYWxtYXIyLm9yZ4IJALIv7VqXanQYMAwGA1UdEwQFMAMBAf8wDQYJ
-                        KoZIhvcNAQEFBQADgYEALx5V6xKtPr7urC/QOWiHxUChQO+SJsbnlwIquwaEGgUf
-                        0WrGidPu04zdv+VpKtR+/KZbIDuSWx0/AkbexiE9ZUzJ2GvdVSxr/uON9CtQIQTp
-                        5WjZD0KaieaoIMy/w5shc+trjkV550g/MWFFqAjproXwHRrEQoAxWL0smtR1R/I=
-                    </ds:X509Certificate>
-                </ds:X509Data>
-            </ds:KeyInfo>
-        </Link>
-    </XRD> -->
     <XRD>
         <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
         <Link
@@ -370,44 +339,6 @@ nnrKODFBhk0JV06Ofkx/q38Z1Zl7a0yO81iya9dL/fVXNwE5AzguBOThO9bSVg==
             </ds:KeyInfo>
         </Link>
     </XRD>
-<!--
-    <XRD>
-        <Subject>http://metadata.ukfederation.org.uk/ukfederation-metadata.xml</Subject>
-        <Link
-            href="file:///srv/Python/venvs/2014-11-20_SPF/etc/pyff_config/output/id_feds/ukfederation_edugain.xml"
-            rel="urn:oasis:names:tc:SAML:2.0:metadata">
-            <Title>UK Federation eduGAIN</Title>
-            <ds:KeyInfo
-                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-                <ds:X509Data>
-                    <ds:X509Certificate>
-MIIDxzCCAq+gAwIBAgIJAOwuoY8tsvYGMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNV
-BAYTAkdCMUMwQQYDVQQKDDpVSyBBY2Nlc3MgTWFuYWdlbWVudCBGZWRlcmF0aW9u
-IGZvciBFZHVjYXRpb24gYW5kIFJlc2VhcmNoMSYwJAYDVQQDDB1VSyBGZWRlcmF0
-aW9uIE1ldGFkYXRhIFNpZ25lcjAeFw0xNDA4MjYxMjIwMjhaFw0zNzEyMzExMjIw
-MjhaMHoxCzAJBgNVBAYTAkdCMUMwQQYDVQQKDDpVSyBBY2Nlc3MgTWFuYWdlbWVu
-dCBGZWRlcmF0aW9uIGZvciBFZHVjYXRpb24gYW5kIFJlc2VhcmNoMSYwJAYDVQQD
-DB1VSyBGZWRlcmF0aW9uIE1ldGFkYXRhIFNpZ25lcjCCASIwDQYJKoZIhvcNAQEB
-BQADggEPADCCAQoCggEBAOqtfMvCmBuQudC4/jZFPYkHDNHFyp1FA3KJihIUXppF
-vrecrO2wG5CpyqB1mZ+MlKf4jKcTMGBIXC2klD+FyrEdJMBhO6vRmJnNphg3uNZM
-ks0NqIaZmtgc7e8435nMhqLHV95UK2oCLcT4gZrTaXa2vt9kukTOijB0KqDIfEG5
-369EHXPItApAEeMlHebbWndl5n2I16nya/LeaoiU9qJ6sVz4xd1UtUesewrmYVKg
-PA2JYEpovmnr13sTnGssai5Db/FkrE2NJ4Q4drbPYcwincUo/UXzrtuPclr+l3JE
-gjtvDzPrBxxvK0S/gARrbKz5tk4LDLkYsj4PKlwVS+UCAwEAAaNQME4wHQYDVR0O
-BBYEFE9HhBuMxrzBYOj1Kj/3gtzAgtUEMB8GA1UdIwQYMBaAFE9HhBuMxrzBYOj1
-Kj/3gtzAgtUEMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALJkjT3K
-QL3w3xNfVe27nEOY44K2AZiu4IhqmRSslcyMnhnxrovEhLL3ieKFXQ+QFIkzVdR5
-BcO3NrSIz5V6b+mHtr5IjqLFHzOzzjw/3i8LddGOsApJiav+JrU1CGJXCU4cwYDN
-hAyfuAlrrEEL2lWMU1L1ZTzHsG1yWTfukfuvTftY5BwZ/dgANgIWwLDhvL6CAQZ3
-g5XteFPyChU0Z7b3XAHdVNHDa2VzWSsSUDtSQZ9DyTuqSjZH1q2/qtdMcrbJpdMB
-cndOf1pZRLzb6a+akIYi//1qO48HpB4wouH9gS3ZER+rNBhVWu301UYxoVI7o8mG
-Yq7dENJce7lO9yE=
-                    </ds:X509Certificate>
-                </ds:X509Data>
-            </ds:KeyInfo>
-        </Link>
-    </XRD>
-        -->
          <XRD>
         <Subject>https://mds.edugain.org/</Subject>
         <Link
