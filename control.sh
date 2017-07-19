@@ -40,7 +40,7 @@ pyff_fetch_md() {
     error="pyff_fetch_md: Belnet -> exit status: $?; $error"
     _curl "${temp_dir_path}/eduidcz.xml" 'https://metadata.eduid.cz/entities/eduid+idp' ||
     error="pyff_fetch_md: eduID.cz -> exit status: $?; $error"
-    _curl "${temp_dir_path}/swamid_edugain.xml" 'https://md.swamid.se/md/swamid-edugain-1.0.xml' ||
+    _curl "${temp_dir_path}/swamid_edugain.xml" 'https://mds.swamid.se/md/swamid-edugain-1.0.xml' ||
     error="pyff_fetch_md: SWAMID eduGAIN -> exit status: $?; $error"
     _curl "${temp_dir_path}/arnesaai_edugain.xml" 'https://ds.aai.arnes.si/metadata/arnesaai2edugain.signed.xml' ||
     error="pyff_fetch_md: ArnesAAI eduGAIN -> exit status: $?; $error"
