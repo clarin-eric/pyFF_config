@@ -36,7 +36,6 @@ pyff_fetch_md() {
     error="pyff_fetch_md: DFN-AAI-Basic & Advanced -> exit status: $?; $error"
     _curl "${temp_dir_path}/haka.xml" 'https://haka.funet.fi/metadata/haka-metadata.xml' ||
     error="pyff_fetch_md: Haka -> exit status: $?; $error"
-#    _curl "${temp_dir_path}/kalmar.xml" 'https://kalmar2.org/simplesaml/module.php/aggregator/?id=kalmarcentral2&amp;set=saml2' || error="pyff_fetch_md: Kalmar Union -> exit status: $?; $error"
     _curl "${temp_dir_path}/belnet.xml" 'https://federation.belnet.be/federation-metadata.xml' ||
     error="pyff_fetch_md: Belnet -> exit status: $?; $error"
     _curl "${temp_dir_path}/eduidcz.xml" 'https://metadata.eduid.cz/entities/eduid+idp' ||

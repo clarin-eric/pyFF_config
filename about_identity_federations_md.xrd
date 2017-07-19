@@ -173,7 +173,7 @@
             </ds:KeyInfo>
         </Link>
     </XRD>
-   <XRD>
+<!--   <XRD>
         <Subject>https://kalmar2.org/simplesaml/module.php/aggregator/?id=kalmarcentral2&amp;set=saml2</Subject>
         <Link
             href="file://output/id_feds/kalmar.xml"
@@ -203,7 +203,7 @@
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
-    </XRD>
+    </XRD> -->
     <XRD>
         <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
         <Link
