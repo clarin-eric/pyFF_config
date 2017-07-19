@@ -32,7 +32,8 @@
  or @entityID='https://lbr.csc.fi/shibboleth'
  or @entityID='https://webanno.sfs.uni-tuebingen.de'
  or @entityID='https://dspace-clarin-it.ilc.cnr.it/Shibboleth.sso/Metadata'
- or @entityID='https://sp.clarin.vdu.lt' 
+ or @entityID='https://sp.clarin.vdu.lt'
+ or @entityID='https://engine.proxy.clariah.nl/authentication/sp/metadata'
 )]"
 - xslt:
     stylesheet: tidy.xsl
