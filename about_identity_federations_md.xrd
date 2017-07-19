@@ -338,6 +338,38 @@ ZOu6nAJj2skIW5yxztm1ikITRoks
             </ds:KeyInfo>
         </Link>
     </XRD>
+    <XRD>
+        <Subject>https://rctsaai-rr.fccn.pt/rr/signedmetadata/federation/UkNUU2FhaQ~~/metadata.xml</Subject>
+        <Link
+            href="file://output/id_feds/rcts.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>ArnesAAI eduGAIN upstream</Title>
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIDKjCCAhICCQCDDOQ8xAeQZzANBgkqhkiG9w0BAQUFADBXMQswCQYDVQQGEwJQ
+VDEPMA0GA1UEBwwGTGlzYm9uMRwwGgYDVQQKDBNEZWZhdWx0IENvbXBhbnkgTHRk
+MRkwFwYDVQQDDBBwdG1ldGFkYXRhc2lnbmVyMB4XDTEyMTAwMTE0MDAzMFoXDTIy
+MDkyOTE0MDAzMFowVzELMAkGA1UEBhMCUFQxDzANBgNVBAcMBkxpc2JvbjEcMBoG
+A1UECgwTRGVmYXVsdCBDb21wYW55IEx0ZDEZMBcGA1UEAwwQcHRtZXRhZGF0YXNp
+Z25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMs6/IYoQPnO2w9a
+7teRTSCZZSNo8LzftYgZcALAoDjXTXI7vKAPNTFmBHFq0dFiSAUjPDFxFLgC3c0n
+rL2QiP4eNgsKycTk8aRryBiIvh3gOOw6YNYcCPSO4eJj0eaGopEQttB6I/zkMy+p
+E1/xnFqP/UzA/XTpnHMgSbf1NLEWfgEkhW2rZ557gPBP+511HCw+Xlm4cGKeh696
+dtmcGUrgZ5iFhpw0ZlQcWaAgcOw1klY+y8A47aS6fTWsu9cOA7IKwMUHgt8P6Ozt
+Y7xAUh1W296h3RteiJTYbCgoPEkENB7xVitOg4QG/aYhkQh20PhHxii44Yg9GRBX
+dM13ejMCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAO2cN5wawlmZA5s8qDm1thrkQ
+4i7ubyfI69CEFXPdplrSH4fxD1oLEtXp/ofqUlxuSmXVqXVQrG+BPhXV9deXlb9U
+P3DbFcmEcd7LhVgYu0yJ0Gm73sDojHozilJG2B1lCk/tt+HjsM7tNIbbl/rgG/vB
+zVDIAvfqpn2+/TYQNi98wHMWIvYjsid4J2kuyK4HLr/9xG1IwGLzKUVg6gGVPPpr
+UVcH9GLbwzCZJKcCebJXqAw1zxtMJL0BnYhkKcZQwnx3wz8pQ6NoGVHU0vUEyQXs
+nnrKODFBhk0JV06Ofkx/q38Z1Zl7a0yO81iya9dL/fVXNwE5AzguBOThO9bSVg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
 <!--
     <XRD>
         <Subject>http://metadata.ukfederation.org.uk/ukfederation-metadata.xml</Subject>

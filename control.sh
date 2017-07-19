@@ -44,6 +44,8 @@ pyff_fetch_md() {
     error="pyff_fetch_md: SWAMID eduGAIN -> exit status: $?; $error"
     _curl "${temp_dir_path}/arnesaai_edugain.xml" 'https://ds.aai.arnes.si/metadata/arnesaai2edugain.signed.xml' ||
     error="pyff_fetch_md: ArnesAAI eduGAIN -> exit status: $?; $error"
+    _curl "${temp_dir_path}/rcts.xml" 'https://rctsaai-rr.fccn.pt/rr/signedmetadata/federation/UkNUU2FhaQ~~/metadata.xml' ||
+    error="pyff_fetch_md: RCTS -> exit status: $?; $error"
     _curl "${temp_dir_path}/edugain.xml" 'https://mds.edugain.org/' ||
     error="pyff_fetch_md: eduGAIN -> exit status: $?; $error"
 

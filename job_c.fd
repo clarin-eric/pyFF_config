@@ -11,6 +11,7 @@
     - "file://output/id_feds/haka.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "file://output/id_feds/surfconext.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "file://output/id_feds/swamid_edugain.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "file://output/id_feds/rcts.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
 - xslt:
     stylesheet: tidy.xsl
 - finalize:
