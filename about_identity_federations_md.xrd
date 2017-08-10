@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XRDS xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
+
+    <XRD>
+        <Subject>https://engine.surfconext.nl/authentication/idp/metadata</Subject>
+        <Link href="file://output/id_feds/surf_test.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>SURFconext</Title>
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIID3zCCAsegAwIBAgIJAMVC9xn1ZfsuMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJOTDEQMA4GA1UECAwHVXRyZWNodDEQMA4GA1UEBwwHVXRyZWNodDEVMBMGA1UECgwMU1VSRm5ldCBCLlYuMRMwEQYDVQQLDApTVVJGY29uZXh0MSYwJAYDVQQDDB1lbmdpbmUuc3VyZmNvbmV4dC5ubCAyMDE0MDUwNTAeFw0xNDA1MDUxNDIyMzVaFw0xOTA1MDUxNDIyMzVaMIGFMQswCQYDVQQGEwJOTDEQMA4GA1UECAwHVXRyZWNodDEQMA4GA1UEBwwHVXRyZWNodDEVMBMGA1UECgwMU1VSRm5ldCBCLlYuMRMwEQYDVQQLDApTVVJGY29uZXh0MSYwJAYDVQQDDB1lbmdpbmUuc3VyZmNvbmV4dC5ubCAyMDE0MDUwNTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKthMDbB0jKHefPzmRu9t2h7iLP4wAXr42bHpjzTEk6gttHFb4l/hFiz1YBI88TjiH6hVjnozo/YHA2c51us+Y7g0XoS7653lbUN/EHzvDMuyis4Xi2Ijf1A/OUQfH1iFUWttIgtWK9+fatXoGUS6tirQvrzVh6ZstEp1xbpo1SF6UoVl+fh7tM81qz+Crr/Kroan0UjpZOFTwxPoK6fdLgMAieKSCRmBGpbJHbQ2xxbdykBBrBbdfzIX4CDepfjE9h/40ldw5jRn3e392jrS6htk23N9BWWrpBT5QCk0kH3h/6F1Dm6TkyG9CDtt73/anuRkvXbeygI4wml9bL3rE8CAwEAAaNQME4wHQYDVR0OBBYEFD+Ac7akFxaMhBQAjVfvgGfY8hNKMB8GA1UdIwQYMBaAFD+Ac7akFxaMhBQAjVfvgGfY8hNKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC8L9D67CxIhGo5aGVu63WqRHBNOdo/FAGI7LURDFeRmG5nRw/VXzJLGJksh4FSkx7aPrxNWF1uFiDZ80EuYQuIv7bDLblK31ZEbdg1R9LgiZCdYSr464I7yXQY9o6FiNtSKZkQO8EsscJPPy/Zp4uHAnADWACkOUHiCbcKiUUFu66dX0Wr/v53Gekz487GgVRs8HEeT9MU1reBKRgdENR8PNg4rbQfLc3YQKLWK7yWnn/RenjDpuCiePj8N8/80tGgrNgK/6fzM3zI18sSywnXLswxqDb/J+jgVxnQ6MrsTf1urM8MnfcxG/82oHIwfMh/sXPCZpo+DTLkhQxctJ3M=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+
+
     <XRD>
         <Subject>https://engine.surfconext.nl/authentication/proxy/idps-metadata/key:20140505?sp-entity-id=https://sp.catalog.clarin.eu</Subject>
         <Link href="file://output/id_feds/surfconext.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
@@ -238,7 +254,7 @@
         </Link>
     </XRD>
     <XRD>
-        <Subject>https://mds.swamid.se/md/swamid-edugain-1.0.xml</Subject>
+        <Subject>https://md.swamid.se/md/swamid-edugain-1.0.xml</Subject>
         <Link href="file://output/id_feds/swamid_edugain.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>SWAMID eduGAIN upstream</Title>
@@ -305,6 +321,49 @@
                         zVDIAvfqpn2+/TYQNi98wHMWIvYjsid4J2kuyK4HLr/9xG1IwGLzKUVg6gGVPPpr
                         UVcH9GLbwzCZJKcCebJXqAw1zxtMJL0BnYhkKcZQwnx3wz8pQ6NoGVHU0vUEyQXs
                         nnrKODFBhk0JV06Ofkx/q38Z1Zl7a0yO81iya9dL/fVXNwE5AzguBOThO9bSVg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </Link>
+    </XRD>
+    <XRD>
+        <Subject>https://ds.aai.arnes.si/metadata/arnesaai2edugain.signed.xml</Subject>
+        <Link href="file://output/id_feds/arnesaai_edugain.xml"
+            rel="urn:oasis:names:tc:SAML:2.0:metadata">
+            <Title>ArnesAAI eduGAIN upstream</Title>
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFmjCCA4KgAwIBAgIGEk8j6ADsMA0GCSqGSIb3DQEBBQUAMGUxCzAJBgNVBAYT
+                        AlNJMRIwEAYDVQQHDAlManVibGphbmExHTAbBgNVBAMMFEFBSSBNZXRhZGF0YSBT
+                        aWduaW5nMSMwIQYJKoZIhvcNAQkBFhRhYWEtcG9kcG9yYUBhcm5lcy5zaTAeFw0x
+                        MzExMTQxMTM5MjRaFw0xODExMTMxMTM5MjRaMGUxCzAJBgNVBAYTAlNJMRIwEAYD
+                        VQQHDAlManVibGphbmExHTAbBgNVBAMMFEFBSSBNZXRhZGF0YSBTaWduaW5nMSMw
+                        IQYJKoZIhvcNAQkBFhRhYWEtcG9kcG9yYUBhcm5lcy5zaTCCAiIwDQYJKoZIhvcN
+                        AQEBBQADggIPADCCAgoCggIBAPJoMQZMeT6o70YKcRllW6koQ4rLKjsRYMQkh79b
+                        9NOhFILt5hx2l96XeqDGxIJVAE67BiYCIvyBPX7JJ4UNkd0sNV8BRqm7wslaThFU
+                        aJn3WJhgRNTlw9X/iwIowaIZOfBlAkBff+HXsH73aM0BQ7JoxKJzW1Ihu9sAPfhq
+                        7LexST3dGQPEvu2ej1dNvaRSBYS2IPfLQcnRkWqbH63ZhhDuytD71crS/zXhcZga
+                        5kk+sggBmUqY6ojLQ1OFZ292pxs4mkpvgsOxh5uf5FasO1xpHFOLCdIm8x9OE95I
+                        Fc/3zcIrXPQvwxtitFxgouvDFgN5tFOEdZBd41wWAkapcVY7aaB5puJG3hFUZvEW
+                        /xuRXbj7frC66PiD2KkiPurBXngXGsImhlV5lXKUVPdR9g8/m/pVN3+W8JLwWrjQ
+                        7PYdWERogJ605BDmGdd4KWeJ2A6rARxPhfh61Ip3zXwtJUb1Rub7M+PwFmi+AIAq
+                        Bp/eTV0G3YuiCQL+FPeUh4Y8frBxez5vc492Tx/DhfnjwDi7aEQUedNDtNV4VWPA
+                        8s5b3TGYbPZaL3ryxN49VkQVVrmOmgi2UWwC5A5HD0sRled3oNZvgHub4eyJxN9k
+                        DVY8NR2eldQiQ37L9KJXim/J26I49mJ7dbp2FGrtcSIibo0PjzV3wS4QJ1Rnhs2l
+                        oTQjAgMBAAGjUDBOMB0GA1UdDgQWBBRTMGhxpjq2waAislfRNTiNGT5j+TAfBgNV
+                        HSMEGDAWgBRTMGhxpjq2waAislfRNTiNGT5j+TAMBgNVHRMEBTADAQH/MA0GCSqG
+                        SIb3DQEBBQUAA4ICAQAhVMaVr0C/U4sxkBRE8wtaXHphZ+flP1WNYyEvXzOwtn15
+                        RUa+TA6JmMaK565TrKMwmJ2Bpr13bZznEgWGrzmANJc2OK7DeBB0RQZAt3Nntk+N
+                        HSsK1VkP0QnstBt21ZxxVAXrKkkmx28Hsy4rGHVqwDoYd+OzEuVevWV5HTuBtmDm
+                        b7U7dwrRg+AOxeOsEKrS4mtpOk3CcF7drrsRk2Ocz3ZZTpFqlpBP3YQv7dSQYxLq
+                        YywpWjd/IwSTyQpxDVNo5jQtW6lT920330ABuyRzjvOtjTn2okfQakZ7nhYTwDwU
+                        95w8QgEcy1NN42P5Rbe+fg/IBfS5XARPWaZCuaNNzbhfC7ZWcS771oNlr4GQjHcE
+                        ZYQs0XMn7YaY19pCNFj9Jw5HWZAG9DhGGUTdQbhp48SR4EI9RHQJsgBdFsKCXPPY
+                        WFNds/T8qPLBdHjhInSAVUC3XjS1IC3n5Xnnhmhs2MdNi8R4qj2tOC4URQxZEBXu
+                        ZJz4twAs1+drOB6GNbDaOWKk9hDNYaiB54RWMDUTmKQ7pWLxJn8nj3ttm5g0nHyb
+                        ndT84jdqRzVy4Vpm20n4UW9W4QippUkod07WQmWn51tkcOfnDFpClzBcwWuSxorG
+                        8caqYYMhIKgE9hDnFF4JpX5Aw+atX7ofGHgNQW0ngGKeDO5tvzRQV4KMtluLHA==
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>

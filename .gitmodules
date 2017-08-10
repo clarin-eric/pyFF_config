@@ -1,4 +1,0 @@
-[submodule "input"]
-	path = input
-	url = https://github.com/clarin-eric/md_about_clarin_erics_idp
-	branch = master
