@@ -14,8 +14,6 @@
             </ds:KeyInfo>
         </Link>
     </XRD>
-
-
     <XRD>
         <Subject>https://engine.surfconext.nl/authentication/proxy/idps-metadata/key:20140505?sp-entity-id=https://sp.catalog.clarin.eu</Subject>
         <Link href="file://output/id_feds/surfconext.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">

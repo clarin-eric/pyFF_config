@@ -49,6 +49,10 @@ pyff_fetch_md() {
     _curl "${temp_dir_path}/edugain.xml" 'https://mds.edugain.org/' ||
     error="pyff_fetch_md: eduGAIN -> exit status: $?; $error"
 
+# SURFconext staging IdP for new SPs
+    _curl "${temp_dir_path}/surf_staging.xml" 'https://engine.surfconext.nl/authentication/idp/metadata' ||
+    error="pyff_fetch_md: SURF test -> exit status: $?; $error"
+
     rsync --remove-source-files -auv "${temp_dir_path}/" "${id_feds_target_dir_path}"
 
     if [ -n "${error}" ]; then
@@ -94,6 +98,10 @@ pyff_sign() {
     'xmlsectool.sh' --inFile 'output/prod_md_about_spf_sps.xml' --outFile \
       'output/prod_md_about_spf_sps.xml' $xmlsectool_parameters ||
     error="pyff_sign: prod_md_about_spf_sps -> exit status: $?; $error"
+    # shellcheck disable=SC2086
+    'xmlsectool.sh' --inFile 'output/prod_md_about_spf_idps_surf_staging.xml' --outFile \
+      'output/prod_md_about_spf_idps_surf_staging.xml' $xmlsectool_parameters ||
+    error="pyff_sign: prod_md_about_spf_idps_surf_staging.xml -> exit status: $?; $error"
     JAVA_HOME="${old_JAVA_HOME}"
     export JAVA_HOME
     if [ -n "${error}" ]; then
@@ -122,6 +130,9 @@ pyff_verify_signatures() {
     # shellcheck disable=SC2086
     'xmlsectool.sh' --inFile 'output/prod_md_about_spf_sps.xml' $xmlsectool_parameters ||
     error="pyff_verify_signatures: prod_md_about_spf_sps -> exit status: $?; $error"
+    # shellcheck disable=SC2086
+    'xmlsectool.sh' --inFile 'output/prod_md_about_spf_idps_surf_staging.xml' $xmlsectool_parameters ||
+    error="pyff_verify_signatures: prod_md_about_spf_idps_surf_staging -> exit status: $?; $error"
     JAVA_HOME="${old_JAVA_HOME}"
     export JAVA_HOME
     if [ -n "${error}" ]; then
@@ -142,6 +153,7 @@ pyff_publish() {
     mv 'output/md_about_spf_sps.xml' \
       'output/prod_md_about_clarin_erics_idm.xml' \
       'output/prod_md_about_spf_idps.xml' 'output/prod_md_about_spf_sps.xml' \
+      'output/prod_md_about_spf_idps_surf_staging.xml' \
       '/srv/www/infra.clarin.eu/aai/' &&
     (cd '/srv/installations/SAML_metadata_QA_validator/' &&
     ant &&
