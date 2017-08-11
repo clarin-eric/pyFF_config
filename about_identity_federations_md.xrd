@@ -3,7 +3,7 @@
 
     <XRD>
         <Subject>https://engine.surfconext.nl/authentication/idp/metadata</Subject>
-        <Link href="file://output/id_feds/surf_test.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/surf_staging.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>SURFconext</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
