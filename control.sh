@@ -1,7 +1,7 @@
 #!/bin/sh -x
 
-venv_path='/srv/Python/venvs/SPF/'
-pyff_config_directory_path="${venv_path:?}/etc/pyFF_config/"
+env_path='/srv/Python/SPF/'
+pyff_config_directory_path="${env_path:?}/etc/pyFF_config/"
 use_java_home='/usr/lib/jvm/java-1.8-openjdk/jre/'
 
 
@@ -62,12 +62,6 @@ pyff_fetch_md() {
         # TODO: distinguish fatal and nonfatal failure
     fi
     printf '%s \n' "SAML metadata batches about IdPs up-to-date in '${id_feds_target_dir_path}'."
-}
-
-pyff_activate() {
-   # shellcheck disable=SC1090
-   . "${venv_path}/bin/activate" &&
-   return $?
 }
 
 pyff_run() {
