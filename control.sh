@@ -71,7 +71,7 @@ pyff_run() {
 }
 
 pyff_sign() {
-    xmlsectool_parameters="--sign --digest SHA-512 --key /root/keys/SPF_signing_priv.pem --certificate /root/keys/SPF_signing_pub.crt --referenceIdAttributeName ID "
+    xmlsectool_parameters="--sign --digest SHA-512 --key /home/keys/SPF_signing_priv.pem --certificate /home/keys/SPF_signing_pub.crt --referenceIdAttributeName ID "
     old_JAVA_HOME="${JAVA_HOME}"
     JAVA_HOME="${use_java_home}"
     export JAVA_HOME
@@ -108,7 +108,7 @@ pyff_sign() {
 }
 
 pyff_verify_signatures() {
-    xmlsectool_parameters=" --verifySignature --certificate /root/keys/SPF_signing_pub.crt "
+    xmlsectool_parameters=" --verifySignature --certificate /home/keys/SPF_signing_pub.crt "
     old_JAVA_HOME="${JAVA_HOME}"
     JAVA_HOME="${use_java_home}"
     export JAVA_HOME
@@ -142,8 +142,9 @@ pyff_publish() {
     old_JAVA_HOME="${JAVA_HOME}"
     JAVA_HOME="${use_java_home}"
     export JAVA_HOME
-    chown -Rv '0:nginx' 'output/' &&
-    chmod -Rv 'u=rw,g=r,o=' 'output/' &&
+    chgrp -Rv nginx 'output/' &&
+    find output/ -type d -exec chmod -v 'u=rwx,g=r,o=' {} \;
+    find output/ -type f -exec chmod -v 'u=rw,g=r,o=' {} \;
     mv 'output/md_about_spf_sps.xml' \
       'output/prod_md_about_clarin_erics_idm.xml' \
       'output/prod_md_about_spf_idps.xml' 'output/prod_md_about_spf_sps.xml' \
@@ -151,7 +152,7 @@ pyff_publish() {
       '/srv/www/infra.clarin.eu/aai/' &&
     (cd '/srv/installations/SAML_metadata_QA_validator/' &&
     ant &&
-    chown -v '0:nginx' 'out/md_about_spf_sps.svrlt' \
+    chgrp -v nginx 'out/md_about_spf_sps.svrlt' \
       'out/md_about_spf_sps_qa.xml' 'out/prod_md_about_spf_sps.svrlt' \
       'out/prod_md_about_spf_sps_qa.xml' &&
     chmod -v 'u=rw,g=r,o=' 'out/md_about_spf_sps.svrlt' \
