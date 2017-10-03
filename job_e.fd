@@ -1,4 +1,4 @@
-# Automated job E: publish production SAML metadata about CLARIN IdM (unity).
+# Automated job E: publish production SAML metadata about CLARIN IdP (unity).
 - load:
    - input/idp-metadata.xml
 - select: "!//md:EntityDescriptor"
