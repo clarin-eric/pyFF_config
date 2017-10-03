@@ -1,3 +1,57 @@
+== Scope
+
+This repository holds the configuration for the https://gitlab.com/CLARIN-ERIC/docker-spf-md-pipelines[CLARIN SPF SAML metadata pipelines].
+It provides definitions for:
+
+* the various pyFF jobs used ('job_X.fd' files).
+* the https://github.com/clarin-eric/pyFF_config/blob/master/input/idp-metadata.xml[metadata for the CLARIN central IdP].
+* the https://github.com/clarin-eric/pyFF_config/blob/master/about_identity_federations_md.xrd[public certificates used by the various identity federations].
+
+Beware!!! Changes to the master branch of this repository should be done only to modify the SAML production feeds.
+
+These files are fetched before each run of the SPF metadata pipelines, so changes to the master branch will be automatically reflected in the production SAML feeds.
+
+== Usage
+
+The files in this project are designed to be used by the CLARIN SPF https://gitlab.com/CLARIN-ERIC/docker-spf-md-pipelines/blob/master/image/cron/control.sh[control.sh script], which can be sourced and used to run the various job_X.fd files.
+
+* job_a.fd - publish preproduction SAML metadata about the SPF’s SPs
++
+This job selects all Entity Descriptors from the https://github.com/clarin-eric/SPF-SPs-metadata/blob/master/clarin-sp-metadata.xml[CLARIN SPs Metadata File] and publishes them as the SPF pre-production SPs feed.
+Normally no changes are needed to this file but it can be useful e.g. to exclude certain SPs from the pre-production feed.
+
+
+* job_b.fd - publish production SAML metadata about the SPF’s SPs
++
+Selects the specified Entity Descriptors ('entityID=') from the https://github.com/clarin-eric/SPF-SPs-metadata/blob/master/clarin-sp-metadata.xml[CLARIN SPs Metadata File] and publishes them as the SPF production SPs feed.
+This file is used to mark the SPs as part of the production feed. To bring a new SP into production, edit this file and insert the new "or @entityID='https://example.tdl/saml/metadata'" element into the 'select' section.
+
+* job_c.fd - publish production SAML metadata about each identity federation’s IdPs
++
+Aggregates all IdPs' metadata from the eduGAIN and the various identity federations and publishes it as the CLARIN SPF IdP metadata feed.
+Edit this file to blacklist undesired specific IdPs. When adding a new identity federation, this file must also e edited in conjunction with the https://gitlab.com/CLARIN-ERIC/docker-spf-md-pipelines/blob/master/image/cron/control.sh[control.sh script].
+
+* job_d.fd - publish production SAML metadata about each identity federation’s IdPs including SURFconext staging infrastructure
++
+Same as job_c.fd but includes the Dutch SURFconext staging IdPs metadata. This is to be used during validation phase when adding new SPs to SURFconext federation.
+Edit this file in sync with job_c.fd
+
+* job_e.fd - publish production SAML metadata about CLARIN IdP (unity)
++
+Publishes the https://github.com/clarin-eric/pyFF_config/blob/master/input/idp-metadata.xml[metadata for the CLARIN Central IdP].
+With the current setup, this file doesn't need to be changed.
+
+* about_identity_federations_md.xrd - public certificates used by various identity federations
++
+This file is used to verify the metadata batches downloaded from the various identity federations.
+Edit this file only when the certificate from an identity federation changes.
+
+* input/idp-metadata.xml -  CLARIN central IdP metadata file.
++
+The metadata file of the CLARIN central IdP.
+
+Currently the control.sh script which pushes these definitions into production, is executed every hour between 7:00 and 19:00. See [cronjob 1] of the CLARIN SPF pipelines.
+
 == Requirements
 
 * https://github.com/leifj/pyFF[pyFF];
@@ -12,9 +66,8 @@
 
 * Clone this repository (once).
 * `cd` to its root directory within a POSIX-compatible shell (e.g. first issue `/bin/sh`).
-* Source `control.sh`:
+* Download and source https://gitlab.com/CLARIN-ERIC/docker-spf-md-pipelines/blob/master/image/cron/control.sh[control.sh script]
 +
-[source,Sh]
 ----
 . control.sh
 ----
@@ -28,7 +81,7 @@ To fetch SAML metadata batches from identity federations that are connected to t
 
 To run a certain PyFF job declaration. `job_name` can be link:job_a.fd[`job_a`], link:job_a.fd[`job_b`], link:job_a.fd[`job_c`] or link:job_a.fd[`job_d`].
 
-PyFF jobs process (aggregate/split/filter) SAML metadata. Please study the job declarations to learn about them and their interdependencies. Running them in alphabetic order should be safe.
+PyFF jobs process (aggregate/split/filter) SAML metadata. Please study the job declarations to learn about them and their interdependencies. Running them in alphabetical order should be safe.
 
 === `pyff_sign`
 
