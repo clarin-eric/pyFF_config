@@ -36,6 +36,8 @@
  or @entityID='https://tekstlab.uio.no/glossa2/saml/metadata'
  or @entityID='https://sp.spraakbanken.gu.se/shibboleth/clarin'
  or @entityID='https://lap.clarino.uio.no/simplesaml/module.php/saml/sp/metadata.php/default-sp'
+ or @entityID='https://sp.mpi.nl'
+ or @entityID='https://archive.mpi.nl'
 )]"
 - xslt:
     stylesheet: tidy.xsl
