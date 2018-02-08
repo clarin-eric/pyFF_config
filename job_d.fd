@@ -1,7 +1,7 @@
 # Automated job D: publish production SAML metadata about each identity federation’s IdPs including SURFconext staging.
 - load:
     - about_identity_federations_md.xrd
-- select: 
+- select fail_on_error True: 
     - "file://output/id_feds/surf_staging.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "file://output/id_feds/aconet.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://openidp.aco.net/saml')]"
     - "file://output/id_feds/arnesaai_edugain.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
