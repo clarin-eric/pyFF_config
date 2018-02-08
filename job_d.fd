@@ -1,5 +1,5 @@
 # Automated job D: publish production SAML metadata about each identity federation’s IdPs including SURFconext staging.
-- load:
+- load fail_on_error True:
     - about_identity_federations_md.xrd
 - select fail_on_error True: 
     - "file://output/id_feds/surf_staging.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
