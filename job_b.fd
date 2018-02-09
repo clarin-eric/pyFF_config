@@ -13,6 +13,7 @@
  or @entityID='https://weblicht.sfs.uni-tuebingen.de'
  or @entityID='https://ufal-point.mff.cuni.cz/shibboleth/eduid/sp'
  or @entityID='https://clarin.oeaw.ac.at/shibboleth'
+ or @entityID='https://redmine.acdh.oeaw.ac.at/shibboleth'
  or @entityID='https://www.meertens.knaw.nl/Shibboleth.sso/Metadata'
  or @entityID='https://openskos.meertens.knaw.nl/shibboleth'
  or @entityID='https://secure.huygens.knaw.nl'
