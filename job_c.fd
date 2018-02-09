@@ -1,7 +1,7 @@
 # Automated job C: publish production SAML metadata about each identity federation’s IdPs.
 - load fail_on_error True:
     - about_identity_federations_md.xrd
-- select fail_on_error True: 
+- select: 
     - "file://output/id_feds/aconet.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://openidp.aco.net/saml')]"
     - "file://output/id_feds/arnesaai_edugain.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "file://output/id_feds/belnet.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not (@entityID='https://idp.umons.ac.be/idp/shibboleth' or @entityID='https://sidp.gopress.be/idp/shibboleth')]"
