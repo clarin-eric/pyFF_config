@@ -2,7 +2,7 @@
 <XRDS xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
     <XRD>
         <Subject>https://engine.surfconext.nl/authentication/proxy/idps-metadata/key:20140505?sp-entity-id=https://sp.catalog.clarin.eu</Subject>
-        <Link href="output/id_feds/surfconext.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/surfconext.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>SURFconext</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
@@ -34,7 +34,7 @@
     </XRD>
     <XRD>
         <Subject>https://eduid.at/md/aconet-registered.xml</Subject>
-        <Link href="output/id_feds/aconet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/aconet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>ACOnet</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
@@ -73,7 +73,7 @@
     </XRD>
     <XRD>
         <Subject>https://www.aai.dfn.de/fileadmin/metadata/dfn-aai-basic-metadata.xml</Subject>
-        <Link href="output/id_feds/dfn-aai-basic.xml"
+        <Link href="file://output/id_feds/dfn-aai-basic.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>DFN-AAI Advanced+Basic</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
@@ -123,7 +123,7 @@
     </XRD>
     <XRD>
         <Subject>https://haka.funet.fi/metadata/haka-metadata.xml</Subject>
-        <Link href="output/id_feds/haka.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/haka.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>Haka</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
@@ -162,7 +162,7 @@
     </XRD>
     <XRD>
         <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
-        <Link href="output/id_feds/belnet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/belnet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>Belnet</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
@@ -214,7 +214,7 @@
     </XRD>
     <XRD>
         <Subject>https://metadata.eduid.cz/entities/eduid+idp</Subject>
-        <Link href="output/id_feds/eduidcz.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/eduidcz.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>eduID.cz</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
@@ -242,7 +242,7 @@
     </XRD>
     <XRD>
         <Subject>https://md.swamid.se/md/swamid-edugain-1.0.xml</Subject>
-        <Link href="output/id_feds/swamid_edugain.xml"
+        <Link href="file://output/id_feds/swamid_edugain.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>SWAMID eduGAIN upstream</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
@@ -286,7 +286,7 @@
     </XRD>
     <XRD>
         <Subject>https://rctsaai-rr.fccn.pt/rr/signedmetadata/federation/UkNUU2FhaQ~~/metadata.xml</Subject>
-        <Link href="output/id_feds/rcts.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/rcts.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>ArnesAAI eduGAIN upstream</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
@@ -315,7 +315,7 @@
     </XRD>
     <XRD>
         <Subject>https://ds.aai.arnes.si/metadata/arnesaai2edugain.signed.xml</Subject>
-        <Link href="output/id_feds/arnesaai_edugain.xml"
+        <Link href="file://output/id_feds/arnesaai_edugain.xml"
             rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>ArnesAAI eduGAIN upstream</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
@@ -358,7 +358,7 @@
     </XRD>
     <XRD>
         <Subject>https://mds.edugain.org/</Subject>
-        <Link href="output/id_feds/edugain.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
+        <Link href="file://output/id_feds/edugain.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>eduGAIN</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
