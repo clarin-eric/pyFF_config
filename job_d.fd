@@ -24,6 +24,7 @@
     - "surfconext!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "swamid!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "rcts!//md:EntityDescriptor[md:IDPSSODescriptor]"
+- sort order_by .//md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority
 - xslt:
     stylesheet: tidy.xsl
 - finalize:
