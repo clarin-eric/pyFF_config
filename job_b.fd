@@ -44,6 +44,7 @@
  or @entityID='https://sp.mpi.nl'
  or @entityID='https://archive.mpi.nl'
 )]"
+- sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
 - xslt:
     stylesheet: tidy.xsl
 - finalize:
