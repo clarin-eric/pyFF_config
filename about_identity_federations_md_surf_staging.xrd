@@ -136,45 +136,6 @@
         </Link>
     </XRD>
     <XRD>
-        <Subject>https://haka.funet.fi/metadata/haka-metadata.xml</Subject>
-        <Link href="output/id_feds/haka.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
-            <Title>Haka</Title>
-            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-                <ds:X509Data>
-                    <ds:X509Certificate>
-                        MIIFJjCCBA6gAwIBAgIQAe7DPHZLkc3JpJiOBSvnXjANBgkqhkiG9w0BAQsFADBk
-                        MQswCQYDVQQGEwJOTDEWMBQGA1UECBMNTm9vcmQtSG9sbGFuZDESMBAGA1UEBxMJ
-                        QW1zdGVyZGFtMQ8wDQYDVQQKEwZURVJFTkExGDAWBgNVBAMTD1RFUkVOQSBTU0wg
-                        Q0EgMzAeFw0xNzExMjgwMDAwMDBaFw0yMDEyMDIxMjAwMDBaMGsxCzAJBgNVBAYT
-                        AkZJMQ4wDAYDVQQHEwVFc3BvbzEvMC0GA1UEChMmQ1NDIC0gVGlldGVlbiB0aWV0
-                        b3Rla25paWthbiBrZXNrdXMgT3kxGzAZBgNVBAMTEmhha2Etc2lnbi5mdW5ldC5m
-                        aTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALBlEhXdLOGNp2grXf/w
-                        6wryUlQ/pjnCZq54ynG1XYNewr8Hb6VeSO/hetLqu1fdECLQTjck68af6LWcSiB4
-                        I3RzFAQDEv1x68RW8Tellj90a/I50YNvbT8CV8IpO19SHHm0+b0uymtDAn27xJ6R
-                        Rop16pirgr3wPaesoy+YrVVkMeoqt7b2gwoNHXaxH1F9MbHi7UxoXjt3bHbpbs2e
-                        66l983CV5A043yeGrjreur6ymK3TU0kCQlJfqlr2tGQ8CLaMcUHtwKWU6PYP4wSb
-                        /ByL/PW7qrEziUEZF4uQm33s7gq+O38gT0mVSgf/i8GNnt/F7UohniBuJTkqz1uW
-                        HQcCAwEAAaOCAcswggHHMB8GA1UdIwQYMBaAFGf9iCAUJ5jHCdIlGbvpURFjdVBi
-                        MB0GA1UdDgQWBBTWp/j8x/E2RCFmmgYliV2OwY0/+jAdBgNVHREEFjAUghJoYWth
-                        LXNpZ24uZnVuZXQuZmkwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUF
-                        BwMBBggrBgEFBQcDAjBrBgNVHR8EZDBiMC+gLaArhilodHRwOi8vY3JsMy5kaWdp
-                        Y2VydC5jb20vVEVSRU5BU1NMQ0EzLmNybDAvoC2gK4YpaHR0cDovL2NybDQuZGln
-                        aWNlcnQuY29tL1RFUkVOQVNTTENBMy5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1s
-                        AQEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAI
-                        BgZngQwBAgIwbgYIKwYBBQUHAQEEYjBgMCQGCCsGAQUFBzABhhhodHRwOi8vb2Nz
-                        cC5kaWdpY2VydC5jb20wOAYIKwYBBQUHMAKGLGh0dHA6Ly9jYWNlcnRzLmRpZ2lj
-                        ZXJ0LmNvbS9URVJFTkFTU0xDQTMuY3J0MAwGA1UdEwEB/wQCMAAwDQYJKoZIhvcN
-                        AQELBQADggEBAIZp08M2blzBtOpPrRK1v+Gz6EIeJhIYITp8GUYZaIoq+OnOui6d
-                        n9qVsjlg/vF69ggm18fu1KLWKS2EYKIhOdZCvCzG+hwQ/4/zZDVUgpnALSnVp9YV
-                        imnruKXnABP4JupwWq1/bf6yNW5hWpZij/TdDCDgkL9tBlzPnXXSgkjZBLKVMbDL
-                        fAraKwLOdJ6YghOLpm552hebt4on60bTj+RcNFkheOoQbF98ufJn/VolcQmbpsli
-                        7eAypz6/9TS9kiQ+DwX00oO+uDZYc1d3Ko1FV5SbCIQx6qnUt8WIoFVIS2BAXd3F
-                        1NnT1VdXmHnp0NYLDJfIh8AcMGQSpW3xNU0= </ds:X509Certificate>
-                </ds:X509Data>
-            </ds:KeyInfo>
-        </Link>
-    </XRD>
-    <XRD>
         <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
         <Link href="output/id_feds/belnet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>Belnet</Title>
