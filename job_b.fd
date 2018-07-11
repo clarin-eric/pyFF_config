@@ -44,6 +44,7 @@
  or @entityID='https://sp.mpi.nl'
  or @entityID='https://archive.mpi.nl'
  or @entityID='https://clarin.eurac.edu/Shibboleth.sso/Metadata'
+ or @entityID='https://repository.clarin.dk/shibboleth'
 )]"
 - sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
 - xslt:
