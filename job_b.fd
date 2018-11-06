@@ -18,6 +18,7 @@
  or @entityID='https://teach.dariah.eu/shibboleth'
  or @entityID='https://registries.clarin-dariah.eu/shibboleth'
  or @entityID='https://arche.acdh.oeaw.ac.at/shibboleth'
+ or @entityID='https://delt.acdh.oeaw.ac.at/shibboleth'
  or @entityID='https://www.meertens.knaw.nl/Shibboleth.sso/Metadata'
  or @entityID='https://openskos.meertens.knaw.nl/shibboleth'
  or @entityID='https://secure.huygens.knaw.nl'
