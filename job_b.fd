@@ -48,6 +48,7 @@
  or @entityID='https://repository.clarin.dk/shibboleth'
  or @entityID='https://ka3.uni-koeln.de'
  or @entityID='https://sp.opensonar.cls.ru.nl/shibboleth'
+ or @entityID='https://sp.onderzoek.zoeken.fame.frl/shibboleth'
 )]"
 - sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
 - xslt:
