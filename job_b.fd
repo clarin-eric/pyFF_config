@@ -38,7 +38,6 @@
  or @entityID='https://webanno.sfs.uni-tuebingen.de'
  or @entityID='https://dspace-clarin-it.ilc.cnr.it/Shibboleth.sso/Metadata'
  or @entityID='https://sp.clarin.vdu.lt'
- or @entityID='https://engine.proxy.clariah.nl/authentication/sp/metadata'
  or @entityID='https://tekstlab.uio.no/glossa2/saml/metadata'
  or @entityID='https://sp.spraakbanken.gu.se/shibboleth/clarin'
  or @entityID='https://lap.clarino.uio.no/simplesaml/module.php/saml/sp/metadata.php/default-sp'
