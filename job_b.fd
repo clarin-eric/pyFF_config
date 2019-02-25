@@ -2,6 +2,7 @@
 - load fail_on_error True:
    - output/md_about_spf_sps.xml
 - select: "!//md:EntityDescriptor[md:SPSSODescriptor and (@entityID='https://sp.catalog.clarin.eu'
+ or @entityID='https://sp.vcr.clarin.eu'
  or @entityID='https://sp.corpus1.mpi.nl'
  or @entityID='https://portal.clarin.inl.nl/'
  or @entityID='https://sp.dev.clarin.inl.nl/shibboleth'
