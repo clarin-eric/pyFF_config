@@ -2,7 +2,7 @@
 - load  fail_on_error True:
    - input/idp-metadata.xml
 - select: 
-   - "!//md:EntityDescriptor"
+   - !//md:EntityDescriptor
 - xslt:
     stylesheet: tidy.xsl 
 - finalize:
