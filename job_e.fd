@@ -1,8 +1,7 @@
 # Automated job E: publish production SAML metadata about CLARIN IdP (unity).
 - load  fail_on_error True:
    - input/idp-metadata.xml
-- select: 
-   - "!//md:EntityDescriptor"
+- select: "!//md:EntityDescriptor"
 - xslt:
     stylesheet: tidy.xsl 
 - finalize:
