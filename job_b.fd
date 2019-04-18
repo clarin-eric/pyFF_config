@@ -2,7 +2,7 @@
 - load fail_on_error True:
    - output/md_about_spf_sps.xml
 - select: 
-   - !//md:EntityDescriptor[md:SPSSODescriptor and (@entityID='https://sp.catalog.clarin.eu'
+   - "!//md:EntityDescriptor[md:SPSSODescriptor and (@entityID='https://sp.catalog.clarin.eu'
  or @entityID='https://sp.vcr.clarin.eu'
  or @entityID='https://sp.corpus1.mpi.nl'
  or @entityID='https://portal.clarin.inl.nl/'
@@ -52,7 +52,7 @@
  or @entityID='https://sp.opensonar.cls.ru.nl/shibboleth'
  or @entityID='https://sp.onderzoek.zoeken.fame.frl/shibboleth'
  or @entityID='https://authentication.clariah.nl/Saml2/proxy_saml2_backend.xml'
-)]
+)]"
 - sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
 - xslt:
     stylesheet: tidy.xsl

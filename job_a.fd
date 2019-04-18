@@ -2,7 +2,7 @@
 - load fail_on_error True:
    - output/md_about_spf_sps.xml
 - select: 
-   - !//md:EntityDescriptor[md:SPSSODescriptor]
+   - "!//md:EntityDescriptor[md:SPSSODescriptor]"
 - xslt:
     stylesheet: tidy.xsl
 - finalize:
