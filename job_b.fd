@@ -1,5 +1,5 @@
 # Automated job B: publish production SAML metadata about the SPF’s SPs.
-- load fail_on_error True:
+- load:
    - output/md_about_spf_sps.xml
 - select: "!//md:EntityDescriptor[md:SPSSODescriptor and (@entityID='https://sp.catalog.clarin.eu'
  or @entityID='https://sp.vcr.clarin.eu'

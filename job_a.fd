@@ -1,5 +1,5 @@
 # Automated job A: publish preproduction SAML metadata about the SPF’s SPs.
-- load fail_on_error True:
+- load:
    - output/md_about_spf_sps.xml
 - select: "!//md:EntityDescriptor[md:SPSSODescriptor]"
 - xslt:
