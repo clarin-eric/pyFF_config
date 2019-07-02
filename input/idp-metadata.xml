@@ -1,17 +1,21 @@
-<md:EntityDescriptor 
+<md:EntityDescriptor
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    entityID="https://idm.clarin.eu" 
+    entityID="https://idp.clarin.eu"
+    xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
     xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
     xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
     xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute"
     xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi"
     xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"
     xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
-    xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" > 
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
- <md:Extensions>
-            <shibmd:Scope regexp="false">clarin.eu</shibmd:Scope>
-            <mdrpi:RegistrationInfo registrationAuthority="https://www.clarin.eu/spf"/>
+    xmlns:shibmd="urn:mace:shibboleth:metadata:1.0">
+    <md:IDPSSODescriptor
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:Extensions>
+            <shibmd:Scope
+                regexp="false">clarin.eu</shibmd:Scope>
+            <mdrpi:RegistrationInfo
+                registrationAuthority="https://www.clarin.eu/spf"></mdrpi:RegistrationInfo>
             <mdui:UIInfo>
                 <mdui:DisplayName xml:lang="en">clarin.eu website account</mdui:DisplayName>
                 <mdui:Description xml:lang="en">You can use this IdP when your academic account does not belong to an identity federation that has ties with the CLARIN Service Provider Federation. It is also known as the ‘homeless’ IdP.</mdui:Description>
@@ -24,42 +28,70 @@
                 <mdui:GeolocationHint>geo:48.261811,11.673473</mdui:GeolocationHint>
             </mdui:DiscoHints>
         </md:Extensions>
-    <md:KeyDescriptor>
-      <ds:KeyInfo>
-        <ds:X509Data>
-          <ds:X509Certificate>MIIE8jCCAtoCCQCgO36F6cwuYzANBgkqhkiG9w0BAQsFADA7MQswCQYDVQQGEwJFVTEUMBIGA1UECgwLQ0xBUklOIEVSSUMxFjAUBgNVBAMMDWlkbS5jbGFyaW4uZXUwHhcNMTcwMzE1MTI0NjA5WhcNMTkwMzE1MTI0NjA5WjA7MQswCQYDVQQGEwJFVTEUMBIGA1UECgwLQ0xBUklOIEVSSUMxFjAUBgNVBAMMDWlkbS5jbGFyaW4uZXUwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDt9o2OBFfyLH0OT9y4fVFBxjh+YbyuP3MLVP1yUKE2D6JeQDjNcd1vyF7hlZ19IBk60UcebRYitOlJ1hNSVzTnXXOQzfRNfGXV5W4u0RLsHJRmZNQBZwhif719kCNR80TBwKplBTE8DYi8V+WDwWhI9NvyS0KFdpTIgRPOqKyfyNyEL8MWuquLOlbfRGSWpoGFBTtKbaXANCj/5/ezEsfJ8wfGFehfJAj2+KxruBNQqG/Z/yX5Y+vs3zn5LsPObiW9xeecHEFIUpvvgYSWAl+okiHD8rWNMSeSBAb50Bn4q5Cami+KLqQTPXvMyVMewIIMbhq3Ycy3YTxbqqRAeaOZ1Xm3uMuUheUANuPzlftXanEdF3yMXOerm+qOJU1UzERIOo5XvwakyrCKJLBP1hVHGI6gbtm0cqAek57IaDF0te+xykIyNwR5V+4D5aM3KG5TT5A2PLyc26gT0Y0dyo0XzRUn18qHateJJxP5ECUtaALIZHTbNfGuuf+KLhyNWIQFFjlOVNPkOuqvxDXHa00l3ejKa6pDgPdTxG/r+t6T8k/DVxIpJQH4j4lfk2IP8RogEawqZok1I9ezYuWzBixvbFErw+I9ZZWVuouViJqB0XeiP21vM3x/0IQB9pET7ETJPiBFhzb2SrDwDz4IqO/nFHydT/fmEIjJkq/H5TjcTQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQA0nSFSAn/UARZM8zX4FE+rkWqVDc6vivHSVH1mY8kCEWsHgHQgguXIakr9qJhGBC77ncVzTiWj1QvOoYMdf0Ii/vjuSYTykE2ufu0WIkZTLnTitkzyzLiXFDmLi1Id7A9R+Y96qadzMxxNVD7AKRGolINioCXcwJYR0QJAe+UzNVC0AGksvstqGPxgmnfznUR1Fjh/F+55EtqOowW3wQVIy7GFJNnn58sCMDZp9daCht1/TIwPb1rFEJO9vIH7AbXPkkNlNUjiJR241BlVcH3eetTTVNSUYTKGi5nN4da+OyhSzS76YRFyk5LH6Trh5brRXBc2fnA6cfNq4jxyWqdcFY5elBSUKhI5YNi+WXlntOKJMT6QGi5TCuh2zUrCU1i3twL5P87JULPURcQ4w3Tb9BgQTkk40LgMZ8OgVu1qe8+oOgWdRwYFXgp6tBGZMTVQXs/su7tfSJdfNPG1okNzn18qzyUvHp7FgyftlprrlD1aXcGVPwof8Z2c6esqMABmaOcB+fxbF1+sgpx9E49QPKqnZmcoyaqXK4LfRaXJcy+dQAP6hkshbXH5mONfYgJ1yC7VFTHJQgvYk11KbBdYk0g3Df2mvV5YsxwwS3VtBwVPg39CU44vl1Abz9h5a6fLJvNyjKObavnbCF4Rr1RSUFsH1IVdkrAbKdcWSHNlBQ==</ds:X509Certificate>
-        </ds:X509Data>
-      </ds:KeyInfo>
-    </md:KeyDescriptor>
-    <md:SingleLogoutService Location="https://idm.clarin.eu/saml-idp/SLO-WEB" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" ResponseLocation="https://idm.clarin.eu:2443/unitygw/SAMLSLOResponseConsumer"/>
-    <md:SingleLogoutService Location="https://idm.clarin.eu/saml-idp/SLO-WEB" ResponseLocation="https://idm.clarin.eu:2443/unitygw/SAMLSLOResponseConsumer" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
-    <md:SingleLogoutService Location="https://idm.clarin.eu/saml-idp/SLO-SOAP" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"/>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-    <md:NameIDFormat>unity:userName</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</md:NameIDFormat>
-    <md:NameIDFormat>unity:persistent</md:NameIDFormat>
-    <md:NameIDFormat>unity:identifier</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:SingleSignOnService Location="https://idm.clarin.eu/saml-idp/saml2idp-web" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
-    <md:SingleSignOnService Location="https://idm.clarin.eu/saml-idp/saml2idp-web" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
-  </md:IDPSSODescriptor>
-  <md:Organization>
-        <md:OrganizationName xml:lang="en">CLARIN ERIC</md:OrganizationName>
-        <md:OrganizationDisplayName xml:lang="en">clarin.eu website account</md:OrganizationDisplayName>
-        <md:OrganizationURL xml:lang="en">https://www.clarin.eu/</md:OrganizationURL>
+        <md:KeyDescriptor>
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDazCCAlOgAwIBAgIEcg6/OjANBgkqhkiG9w0BAQsFADBmMQswCQYDVQQGEwJF
+VTEQMA4GA1UECBMHVW5rbm93bjEQMA4GA1UEBxMHVW5rbm93bjEPMA0GA1UEChMG
+Q0xBUklOMQ0wCwYDVQQLEwRFUklDMRMwEQYDVQQDEwpDTEFSSU4gSURQMB4XDTE5
+MDcwMjEyNDgyMloXDTI5MDYyOTEyNDgyMlowZjELMAkGA1UEBhMCRVUxEDAOBgNV
+BAgTB1Vua25vd24xEDAOBgNVBAcTB1Vua25vd24xDzANBgNVBAoTBkNMQVJJTjEN
+MAsGA1UECxMERVJJQzETMBEGA1UEAxMKQ0xBUklOIElEUDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBALblZHdAAmUIavLjSKlrnekw3GKnC+TRcJZkyvUL
+OfnJblgcMApkFwDpqE6uZACQXKmqR53Vua4brtrj4x5PQMJzkR6tIRvJctVpIwGt
+KzkSwllQz17XoG7au3RRrXA1VS0KKt3F3qn/OfO3qA3aitYzjCSmbb91EbUlbQ6w
+VcMM06Pk2gcszr3IWAHmxXLv5unuG2LFlllR1MUgFVaLi3b3m/z1QBCiTh/p0VTv
+qVulQKqcVZ24tlWO5FYMD7Akv9d41qamlThcBS8ZAbkJL8Xl1PbewFyQQv/jZ0Bi
+Lu8tpjJwHl8ER5SyGlMAL2O9Ut2ClHbU9UKFzwM7fK0FsNUCAwEAAaMhMB8wHQYD
+VR0OBBYEFBEcVjFsxe/VukQiNIpw8c9oUN8OMA0GCSqGSIb3DQEBCwUAA4IBAQAF
+YStP3jj8O141hIW9rJUVnCFQNEBUzTgo1qxpDTLqW1WiMFuVKMETXx884RNG0gvT
+yegH8BtIHhNEikGcaXblbe3rzfFd3NuutSz1I3PJ8smk59SFQEQ13rfbapvCwL6w
+FZm2zUa8OEKUPOdc2ez+My8MkUI+AG34pgDcYC0jIZY5FPhmbUMishxvECRk0/yI
+t3UOQ/8JJn1UpmMdwd7qZgJTGuAQnDtLb1rfwL7oBPOpErnSlI/wtv7zOuptY4J1
+u98lb7KNDqR3yU7t1QlbDfjoQmDAVD5HTF6Hqfjfn7ZcYvUnlFcGHmJNIVAES6WA
+/Q95ENpnoQ/v8WD9+BvT
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:ArtifactResolutionService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.clarin.eu/profile/SAML2/SOAP/ArtifactResolution"
+            index="2"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:SingleSignOnService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://idp.clarin.eu/profile/SAML2/POST/SSO"/>
+        <md:SingleSignOnService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign"
+            Location="https://idp.clarin.eu/profile/SAML2/POST-SimpleSign/SSO"/>
+        <md:SingleSignOnService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://idp.clarin.eu/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName
+            xml:lang="en">CLARIN ERIC</md:OrganizationName>
+        <md:OrganizationDisplayName
+            xml:lang="en">clarin.eu website account</md:OrganizationDisplayName>
+        <md:OrganizationURL
+            xml:lang="en">https://www.clarin.eu/</md:OrganizationURL>
     </md:Organization>
-    <md:ContactPerson contactType="technical">
+    <md:ContactPerson
+        contactType="technical">
         <md:GivenName>Dieter</md:GivenName>
         <md:SurName>Van Uytvanck</md:SurName>
         <md:EmailAddress>spf@clarin.eu</md:EmailAddress>
     </md:ContactPerson>
-    <md:ContactPerson contactType="support">
+    <md:ContactPerson
+        contactType="support">
         <md:GivenName>Dieter</md:GivenName>
         <md:SurName>Van Uytvanck</md:SurName>
         <md:EmailAddress>spf@clarin.eu</md:EmailAddress>
     </md:ContactPerson>
-    <md:ContactPerson contactType="administrative">
+    <md:ContactPerson
+        contactType="administrative">
         <md:GivenName>Dieter</md:GivenName>
         <md:SurName>Van Uytvanck</md:SurName>
         <md:EmailAddress>spf@clarin.eu</md:EmailAddress>
