@@ -1,9 +1,26 @@
-# Automated job C: publish production SAML metadata about each eduGAIN IdP.
+# Automated job C: publish production SAML metadata about each eduGAIN IdP + CLARIN national federation IdPs.
+
 - load:
     - about_identity_federations_md.xrd
+    - output/id_feds/aconet.xml as aconet
+    - output/id_feds/arnesaai_edugain.xml as arnesaai
+    - output/id_feds/belnet.xml as belnet
+    - output/id_feds/dfn-aai-basic.xml as dfn
     - output/id_feds/edugain.xml as edugain
+    - output/id_feds/eduidcz.xml as eduid
+    - output/id_feds/surfconext.xml as surfconext
+    - output/id_feds/swamid_edugain.xml as swamid
+    - output/id_feds/rcts.xml as rcts
 - select:
+    - "aconet!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "arnesaai!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "belnet!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "dfn!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "edugain!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "eduid!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "surfconext!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "swamid!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "rcts!//md:EntityDescriptor[md:IDPSSODescriptor]"
 - sort order_by .//md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority
 - xslt:
     stylesheet: tidy.xsl
