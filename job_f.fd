@@ -1,0 +1,16 @@
+# Automated job C: publish production SAML metadata about each eduGAIN IdP.
+- load:
+    - about_identity_federations_md.xrd
+    - output/id_feds/edugain.xml as edugain
+- select:
+    - "edugain!//md:EntityDescriptor[md:IDPSSODescriptor]"
+- sort order_by .//md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority
+- xslt:
+    stylesheet: tidy.xsl
+- finalize:
+    name: "http://www.clarin.eu/edugain"
+    cacheDuration: PT5H
+    validUntil: P10D
+- publish: output/prod_md_about_edugain_idps.xml
+- stats
+- certreport
