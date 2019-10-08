@@ -12,14 +12,14 @@
     - output/id_feds/swamid_edugain.xml as swamid
     - output/id_feds/rcts.xml as rcts
 - select:
-    - "aconet!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "aconet!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://openidp.aco.net/saml')]"
     - "arnesaai!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "belnet!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "belnet!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://idp.umons.ac.be/idp/shibboleth' or @entityID='https://sidp.gopress.be/idp/shibboleth' or @entityID='https://idp.test.ngi.be/idp/shibboleth' or @entityID='https://viabel.net/shibboleth' or @entityID='https://idphomeless.belnet.be/idp/shibboleth')]"
     - "dfn!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "edugain!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "eduid!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "edugain!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://idp.protectnetwork.org/protectnetwork-idp' or @entityID='https://idp.painless-security.com/idp/shibboleth' or @entityID='https://idp1.proofidcloud.co.uk/idp/shibboleth' or @entityID='https://sso-demo.proofidcloud.co.uk/idp/pingfederate' or @entityID='https://idp2.iay.org.uk/idp/shibboleth' or @entityID='https://idp.overtsoftware.com/idp/shibboleth' or @entityID='https://youidlite.youid.net/idp/shibboleth' or @entityID='https://idp.unitedid.org/idp/shibboleth' or @entityID='https://umbrellaid.org/idp/shibboleth')]"
+    - "eduid!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://mojeid.cz/saml/idp.xml')]"
     - "surfconext!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "swamid!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "swamid!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='http://adfs.nrm.se/adfs/services/trust')]"
     - "rcts!//md:EntityDescriptor[md:IDPSSODescriptor]"
 - sort order_by .//md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority
 - xslt:
