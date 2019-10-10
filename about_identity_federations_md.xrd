@@ -117,12 +117,6 @@
         </Link>
     </XRD>
     <XRD>
-        <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
-        <Link href="output/id_feds/belnet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
-            <Title>Belnet</Title>
-        </Link>
-    </XRD>
-    <XRD>
         <Subject>https://metadata.eduid.cz/entities/eduid+idp</Subject>
         <Link href="output/id_feds/eduidcz.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>eduID.cz</Title>
