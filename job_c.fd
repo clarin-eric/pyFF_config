@@ -1,25 +1,18 @@
 # Automated job C: publish production SAML metadata about each identity federation’s IdPs.
 - load:
     - about_identity_federations_md.xrd
-    - output/id_feds/aconet.xml as aconet
-    - output/id_feds/arnesaai_edugain.xml as arnesaai
-    - output/id_feds/belnet.xml as belnet
-    - output/id_feds/dfn-aai-basic.xml as dfn
-    - output/id_feds/edugain.xml as edugain
-    - output/id_feds/eduidcz.xml as eduid
-    - output/id_feds/surfconext.xml as surfconext
-    - output/id_feds/swamid_edugain.xml as swamid
-    - output/id_feds/rcts.xml as rcts
 - select:
-    - "aconet!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://openidp.aco.net/saml')]"
-    - "arnesaai!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "belnet!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://idp.umons.ac.be/idp/shibboleth' or @entityID='https://sidp.gopress.be/idp/shibboleth' or @entityID='https://idp.test.ngi.be/idp/shibboleth' or @entityID='https://viabel.net/shibboleth' or @entityID='https://idphomeless.belnet.be/idp/shibboleth')]"
-    - "dfn!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "edugain!//md:EntityDescriptor[md:IDPSSODescriptor and (md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://www.csc.fi/haka' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://fedi.litnet.lt' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://ukfederation.org.uk' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://feide.no/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://taat.edu.ee' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://www.idem.garr.it/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://www.wayf.dk' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://aai.pionier.net.pl' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://laife.lanet.lv/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://federation.renater.fr/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://aai.grnet.gr/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://eduid.hu' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://www.srce.hr' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://safire.ac.za' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://cif.cynet.ac.cy' or @entityID='https://login.cmu.edu/idp/shibboleth') and not(@entityID='https://idp.protectnetwork.org/protectnetwork-idp' or @entityID='https://idp.painless-security.com/idp/shibboleth' or @entityID='https://idp1.proofidcloud.co.uk/idp/shibboleth' or @entityID='https://sso-demo.proofidcloud.co.uk/idp/pingfederate' or @entityID='https://idp2.iay.org.uk/idp/shibboleth' or @entityID='https://idp.overtsoftware.com/idp/shibboleth' or @entityID='https://youidlite.youid.net/idp/shibboleth' or @entityID='https://idp.unitedid.org/idp/shibboleth' or @entityID='https://umbrellaid.org/idp/shibboleth')]"
-    - "eduid!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://mojeid.cz/saml/idp.xml')]"
-    - "surfconext!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "swamid!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='http://adfs.nrm.se/adfs/services/trust')]"
-    - "rcts!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/aconet.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://openidp.aco.net/saml')]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/arnesaai_edugain.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/belnet.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://idp.umons.ac.be/idp/shibboleth' or @entityID='https://sidp.gopress.be/idp/shibboleth' or @entityID='https://idp.test.ngi.be/idp/shibboleth' or @entityID='https://viabel.net/shibboleth' or @entityID='https://idphomeless.belnet.be/idp/shibboleth')]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/dfn-aai-basic.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/edugain.xml!//md:EntityDescriptor[md:IDPSSODescriptor and (md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://www.csc.fi/haka' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://fedi.litnet.lt' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://ukfederation.org.uk' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://feide.no/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://taat.edu.ee' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://www.idem.garr.it/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://www.wayf.dk' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://aai.pionier.net.pl' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://laife.lanet.lv/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://federation.renater.fr/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://aai.grnet.gr/' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://eduid.hu' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='http://www.srce.hr' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://safire.ac.za' or md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority='https://cif.cynet.ac.cy' or @entityID='https://login.cmu.edu/idp/shibboleth') and not(@entityID='https://idp.protectnetwork.org/protectnetwork-idp' or @entityID='https://idp.painless-security.com/idp/shibboleth' or @entityID='https://idp1.proofidcloud.co.uk/idp/shibboleth' or @entityID='https://sso-demo.proofidcloud.co.uk/idp/pingfederate' or @entityID='https://idp2.iay.org.uk/idp/shibboleth' or @entityID='https://idp.overtsoftware.com/idp/shibboleth' or @entityID='https://youidlite.youid.net/idp/shibboleth' or @entityID='https://idp.unitedid.org/idp/shibboleth' or @entityID='https://umbrellaid.org/idp/shibboleth')]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/eduidcz.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://mojeid.cz/saml/idp.xml')]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/surfconext.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/swamid_edugain.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='http://adfs.nrm.se/adfs/services/trust')]"
+    - "file:///srv/SPF/pyFF_config/output/id_feds/rcts.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
+- prune:
+      - .//{urn:oasis:names:tc:SAML:2.0:metadata}SPSSODescriptor
 - sort order_by .//md:Extensions/mdrpi:RegistrationInfo/@registrationAuthority
 - xslt:
     stylesheet: tidy.xsl
