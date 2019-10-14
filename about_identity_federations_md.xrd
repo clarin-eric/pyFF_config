@@ -117,57 +117,6 @@
         </Link>
     </XRD>
     <XRD>
-        <Subject>https://federation.belnet.be/federation-metadata.xml</Subject>
-        <Link href="output/id_feds/belnet.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
-            <Title>Belnet</Title>
-            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-                <ds:X509Data>
-                    <ds:X509Certificate>
-                        MIIHSDCCBjCgAwIBAgIQAQ2IuazgNLD6xTvUu5f9fDANBgkqhkiG9w0BAQsFADBz
-                        MQswCQYDVQQGEwJOTDEWMBQGA1UECBMNTm9vcmQtSG9sbGFuZDESMBAGA1UEBxMJ
-                        QW1zdGVyZGFtMQ8wDQYDVQQKEwZURVJFTkExJzAlBgNVBAMTHlRFUkVOQSBTU0wg
-                        SGlnaCBBc3N1cmFuY2UgQ0EgMzAeFw0xODA3MDMwMDAwMDBaFw0yMDA3MDcxMjAw
-                        MDBaMIHSMR0wGwYDVQQPDBRQcml2YXRlIE9yZ2FuaXphdGlvbjETMBEGCysGAQQB
-                        gjc8AgEDEwJCRTEVMBMGA1UEBRMMMDg3NS4zOTYuNjkwMQswCQYDVQQGEwJCRTEQ
-                        MA4GA1UEBxMHSXhlbGxlczE0MDIGA1UEChMrTGUgcmVzZWF1IHRlbGVtYXRpcXVl
-                        IGJlbGdlIGRlIGxhIHJlY2hlcmNoZTERMA8GA1UECxMIU2VydmljZXMxHTAbBgNV
-                        BAMTFGZlZGVyYXRpb24uYmVsbmV0LmJlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
-                        MIIBCgKCAQEA2N0wNo6Aw1fuQ/B1NUISlsRvZWFL37fI3gkWqgyYiRIaXq6XKUnF
-                        0qzRE8qQi3XuadNwViMMyHWjDsBVVIGeRgm+H4SUpIuvnGhiOQ263pibx+TVm6Dm
-                        5scbVucm2fAi5XrG5bqzfV6ft6wIuc5GLNQ4ya9zwY0ynC8R2WQG77fMqFNP2hnY
-                        FAKKQ9FqERKQNwbIRI6RFbyFQ6AoVrFayTW0F1O8bKqvIWzVL9k7z4GcNMW6znKy
-                        KzvwqbNmfgOE9/5RvQa2OxByZceni8OLH5B4djOd/Z/71cTkJ5damPVv5xNY70TX
-                        7APIS3t5jmY9/e/Jy6j3jWYLzOcKWSshwQIDAQABo4IDdjCCA3IwHwYDVR0jBBgw
-                        FoAUwriF1+G5E73RSLz9Xtx9kEJ6iqkwHQYDVR0OBBYEFGWHQvza8e4Ds9n8q3PG
-                        KVlRKvxkMB8GA1UdEQQYMBaCFGZlZGVyYXRpb24uYmVsbmV0LmJlMA4GA1UdDwEB
-                        /wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwgYUGA1UdHwR+
-                        MHwwPKA6oDiGNmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9URVJFTkFTU0xIaWdo
-                        QXNzdXJhbmNlQ0EzLmNybDA8oDqgOIY2aHR0cDovL2NybDQuZGlnaWNlcnQuY29t
-                        L1RFUkVOQVNTTEhpZ2hBc3N1cmFuY2VDQTMuY3JsMEsGA1UdIAREMEIwNwYJYIZI
-                        AYb9bAIBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9D
-                        UFMwBwYFZ4EMAQEwewYIKwYBBQUHAQEEbzBtMCQGCCsGAQUFBzABhhhodHRwOi8v
-                        b2NzcC5kaWdpY2VydC5jb20wRQYIKwYBBQUHMAKGOWh0dHA6Ly9jYWNlcnRzLmRp
-                        Z2ljZXJ0LmNvbS9URVJFTkFTU0xIaWdoQXNzdXJhbmNlQ0EzLmNydDAMBgNVHRMB
-                        Af8EAjAAMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgCkuQmQtBhYFIe7E6LM
-                        Z3AKPDWYBPkb37jjd80OyA3cEAAAAWRfNlUOAAAEAwBHMEUCIDrQF2gOsQTBUIUU
-                        /tr2tAY54mkVMlMJuUP+xnarUApZAiEAuLpWFKPZvx6n6bwMS4hVeZm9CeShAb0C
-                        XbmgojcvR/AAdgBWFAaaL9fC7NP14b1Esj7HRna5vJkRXMDvlJhV1onQ3QAAAWRf
-                        NlVVAAAEAwBHMEUCIQDAoo6aB8R4NcvGeevOXjH4xVVp2asgBl0AOJUkkWhMYQIg
-                        HYDMeXe2ciPQt5T2IzTPM2M/YzoKXwd5AMCJrt4gF3kAdgC72d+8H4pxtZOUI5eq
-                        kntHOFeVCqtS6BqQlmQ2jh7RhQAAAWRfNlX9AAAEAwBHMEUCIG/Clnq+A2uLXqtk
-                        qD+3PJ42SfsLz7mMiKSEFWyIgNtXAiEAqLOhMx/dzYGyTjODNnQ/VQjs7gBnp4G0
-                        wldpeiDIZR0wDQYJKoZIhvcNAQELBQADggEBACabgYD6iwbQ+awG0Uuy83LYePRK
-                        1m7qi+UmlAhl3JDW7CtXMoyQH1n7i86taPMfIMamH2t602DaF3i9OiM9cab8xbWj
-                        5182t4FXQqadafqWTxo8rgcqtM3LZs5yUHFu94MOtOgNaiywU3X6B8nRbDb3j6KT
-                        LdDy03DLixHb7BbNoXumWWswqUgJEelHZFm7mfI580oBgd/NepMWtpGm2Xo2vCZI
-                        cC+iktS3TqyxOgADGi+5RbwxrPcpiTbou/+AINDeGHODLu+z2Y0zR53eqY1koGG2
-                        V0SL/xPCtGu515GLnbpnTmmDSdSjHTnE82U1XbY/GiFVgFT6hlN8k2pZlwE=
-                    </ds:X509Certificate>
-                </ds:X509Data>
-            </ds:KeyInfo>
-        </Link>
-    </XRD>
-    <XRD>
         <Subject>https://metadata.eduid.cz/entities/eduid+idp</Subject>
         <Link href="output/id_feds/eduidcz.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>eduID.cz</Title>
