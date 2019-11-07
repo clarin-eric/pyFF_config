@@ -10,8 +10,8 @@
     <authority code="HU">http://eduid.hu</authority>
     <authority code="LU">http://eduid.lu</authority>
     <authority code="RO">http://eduid.roedu.net</authority>
-    <authority code="BE">http://authority.belnet.be/</authority>
-    <authority code="MD">http://authorities.renam.md/</authority>
+    <authority code="BE">http://federation.belnet.be/</authority>
+    <authority code="MD">http://federations.renam.md/</authority>
     <authority code="NO">http://feide.no/</authority>
     <authority code="IL">http://iif.iucc.ac.il</authority>
     <authority code="IN">http://inflibnet.ac.in</authority>
@@ -20,7 +20,7 @@
     <authority code="CH">http://rr.aai.switch.ch/</authority>
     <authority code="RU">http://runnet.ru/</authority>
     <authority code="EE">http://taat.edu.ee</authority>
-    <authority code="UK">http://ukauthority.org.uk</authority>
+    <authority code="UK">http://ukfederation.org.uk</authority>
     <authority code="CA">http://www.canarie.ca</authority>
     <authority code="FI">http://www.csc.fi/haka</authority>
     <authority code="CZ">http://www.eduid.cz/</authority>
@@ -39,7 +39,7 @@
     <authority code="AL">https://eduid.rash.al</authority>
     <authority code="MA">https://eduidm.ma</authority>
     <authority code="BY">https://febas.basnet.by</authority>
-    <authority code="FR">https://authority.renater.fr/</authority>
+    <authority code="FR">https://federation.renater.fr/</authority>
     <authority code="LT">https://fedi.litnet.lt</authority>
     <authority code="ZM">https://fidern.ac.zm</authority>
     <authority code="HK">https://hkaf.edu.hk</authority>
