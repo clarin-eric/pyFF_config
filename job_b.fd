@@ -51,6 +51,7 @@
  or @entityID='https://sp.onderzoek.zoeken.fame.frl/shibboleth'
  or @entityID='https://authentication.clariah.nl/Saml2/proxy_saml2_backend.xml'
  or @entityID='https://sp.ota.ox.ac.uk/shibboleth'
+ or @entityID='https://repository.clarin.is/shibboleth'
 )]"
 - sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
 - xslt:
