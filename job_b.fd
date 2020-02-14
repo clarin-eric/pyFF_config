@@ -17,6 +17,7 @@
  or @entityID='https://redmine.acdh.oeaw.ac.at/shibboleth'
  or @entityID='https://teach.dariah.eu/shibboleth'
  or @entityID='https://registries.clarin-dariah.eu/shibboleth'
+ or @entityID='https://dhcr.clarin-dariah.eu/shibboleth'
  or @entityID='https://arche.acdh.oeaw.ac.at/shibboleth'
  or @entityID='https://delt.acdh.oeaw.ac.at/shibboleth'
  or @entityID='https://www.meertens.knaw.nl/Shibboleth.sso/Metadata'
