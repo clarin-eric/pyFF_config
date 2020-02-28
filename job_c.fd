@@ -1,5 +1,5 @@
 # Automated job C: publish production SAML metadata about each identity federation’s IdPs.
-- load fail_on_error True:
+- load:
     - about_identity_federations_md.xrd
     - output/id_feds/belnet.xml as belnet
 - select:
