@@ -3,6 +3,8 @@
    - output/md_about_spf_sps.xml
 - select: 
 - sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
+- pubinfo:
+   publisher: https://clarin.eu/
 - xslt:
     stylesheet: tidy.xsl
 - finalize:
