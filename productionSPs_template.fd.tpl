@@ -1,6 +1,6 @@
 # Automated job B: publish production SAML metadata about the SPF’s SPs.
 - load:
-   - output/md_about_spf_sps.xml
+   - output/sps-metadata/production/
 - select: 
 - sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
 - pubinfo:

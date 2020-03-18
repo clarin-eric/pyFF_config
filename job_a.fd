@@ -1,6 +1,6 @@
 # Automated job A: publish preproduction SAML metadata about the SPF’s SPs.
 - load:
-   - output/metadata/
+   - output/sps-metadata/staging/
 - select: "!//md:EntityDescriptor[md:SPSSODescriptor]"
 - xslt:
     stylesheet: tidy.xsl
