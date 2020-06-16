@@ -1,11 +1,9 @@
 # Automated job F: publish production SAML metadata about each eduGAIN IdP + CLARIN national federation IdPs.
 - load fail_on_error True:
     - about_identity_federations_md.xrd
-    - output/id_feds/belnet.xml as belnet
 - select:
     - "file:///srv/SPF/pyFF_config/output/id_feds/aconet.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://openidp.aco.net/saml')]"
     - "file:///srv/SPF/pyFF_config/output/id_feds/arnesaai_edugain.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
-    - "belnet!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://idp.umons.ac.be/idp/shibboleth' or @entityID='https://sidp.gopress.be/idp/shibboleth' or @entityID='https://idp.test.ngi.be/idp/shibboleth' or @entityID='https://viabel.net/shibboleth' or @entityID='https://idphomeless.belnet.be/idp/shibboleth')]"
     - "file:///srv/SPF/pyFF_config/output/id_feds/eduidcz.xml!//md:EntityDescriptor[md:IDPSSODescriptor and not(@entityID='https://mojeid.cz/saml/idp.xml')]"
     - "file:///srv/SPF/pyFF_config/output/id_feds/surfconext.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
     - "file:///srv/SPF/pyFF_config/output/id_feds/rcts.xml!//md:EntityDescriptor[md:IDPSSODescriptor]"
@@ -20,10 +18,6 @@
     - select: "file:///srv/SPF/pyFF_config/output/id_feds/arnesaai_edugain.xml"
     - reginfo:
         authority: http://aai.arnes.si
-- fork merge:
-    - select: "belnet"
-    - reginfo:
-        authority: http://federation.belnet.be/
 - fork merge:
     - select: "file:///srv/SPF/pyFF_config/output/id_feds/eduidcz.xml"
     - reginfo:
