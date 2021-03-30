@@ -192,7 +192,7 @@
     <XRD>
         <Subject>https://rctsaai-rr.fccn.pt/rr/signedmetadata/federation/UkNUU2FhaQ~~/metadata.xml</Subject>
         <Link href="output/id_feds/rcts.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
-            <Title>ArnesAAI eduGAIN upstream</Title>
+            <Title>RCTS</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
