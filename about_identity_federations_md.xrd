@@ -271,28 +271,41 @@
         </Link>
     </XRD>
     <XRD>
-        <Subject>http://mds.edugain.org//edugain-v1.xml</Subject>
+        <Subject>https://mds.edugain.org/edugain-v2.xml</Subject>
         <Link href="output/id_feds/edugain.xml" rel="urn:oasis:names:tc:SAML:2.0:metadata">
             <Title>eduGAIN</Title>
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                 <ds:X509Data>
                     <ds:X509Certificate>
-                        MIIC1zCCAb+gAwIBAgIDVWNWMA0GCSqGSIb3DQEBCwUAMCwxDjAMBgNVBAoTBUdF
-                        QU5UMRowGAYDVQQDExFlZHVHQUlOIFNpZ25lciBDQTAiGA8yMDE0MDcwMjE0MzQ0
-                        OVoYDzIwMjIxMjMxMjM1OTU5WjAsMQ4wDAYDVQQKEwVHRUFOVDEaMBgGA1UEAxMR
-                        ZWR1R0FJTiBTaWduZXIgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
-                        AQCRfl1zhkaFveJvJtS03bRIO3k77q2s5m+c6sQ83j71rIad+vGCO29S4JHBXHI/
-                        U57yNbNLgoKzl0MI4WQrs4KT/y+LPMFB9M0lNrALQd/op6PNc7CWKMN1yV8V/L74
-                        /vapRlb90gPVJABHmoAfQmjyMXLW38KLwzK1qEpKUIxPBfQMBawmh0gC2T5ndZnd
-                        cMPpgsMXyG2AZ4QGSOt4tgpspjTSRY++X+gi9WUuWzsEHHdFhCR9UYQ6+1glMVhe
-                        JjVmoD0b9V/KQ0BF/1zry2jfWlchFeILlWbWgiWsIBA4BPNHqFW42qGgUr9DI3Fz
-                        RLHXqF2N2f592tzcTeDZ11ejAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAHu7D8Wz
-                        ADlKEz5jG1lrUncmedqx2k07+HqSwgOp4/v6xyYtIaTqLUqTaCwMH4Xw4DHezuOI
-                        Kj3Q93SAqqmIPPNU/vYBbXHlVx6HRRskh+DVSLL3QtTf570r0N40DFs4EDU9qKSU
-                        MfxwkMljdQHPhYwxsfPHT8/OVjxHd9A8HKDzwH0aNFNh7Xm3GffK0a0fXDEsPSc0
-                        8/MnqIvQ2v1Py4Q0Rz5R9b8cI2+y383Un5kKy3xH3mIle1aJVfUBrXpiHltfzyk1
-                        sHtE3bmf0je4sGMWy/nndcB/yCxYj5lS9oAEg2OOA/GBsmQCLGpVBQ5eXDqowR5q
-                        m60VUAfMb4SQsYI= </ds:X509Certificate>
+                        MIIFSzCCAzOgAwIBAgIUY99qGOKOxV+iz/+tWfwixuh0CpowDQYJKoZIhvcNAQEL
+                        BQAwNTEOMAwGA1UECgwFR0VBTlQxIzAhBgNVBAMMGmVkdUdBSU4gUlNBIFNpZ25l
+                        ciBDQSAyMDIyMB4XDTIyMDMwODA5MjIzMloXDTQyMDMwODA5MjIzMlowNTEOMAwG
+                        A1UECgwFR0VBTlQxIzAhBgNVBAMMGmVkdUdBSU4gUlNBIFNpZ25lciBDQSAyMDIy
+                        MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1H2PdoPu4QLKqfcg7uC9
+                        rzPA04tdUAdbdnByPddLFEeOfYUxkzbbmrEkUbvL65YAibbxJwEioIQTgSwrtoHL
+                        nT/puQnux7T7en5qYRDLpX7qR2ssNN4TiXS8Z8qDmI+LQw9YnNpI35qHguHKBr2J
+                        kbM7qdq6+8KQD0aK+7FyPcGsYDnOoLlJ8cfmIxY7mumfEbiAni/z/pP4Mo2g4rf4
+                        GY8nhHudJea6qSvxIGLRy7GlL0VOY/PCnxl+EPYSRZYEJEc9jNXsepIzpSU5AM6r
+                        kwO6Ue+5crYtJMey07b0IEaFNHc/Omt5KY+UO0ewYnjcdnKa5MWgTntxs+AzDiMp
+                        dIXGemo2SKfcqmAPUW8bLNFABdwxq/Bhcsqb1K+e4C61dPyI2rDWpaM+NIRLvpLD
+                        jDZsaMnhZK6/ezxKV4h94YKSF1fTunZsyEtaot53ztXjUgvALMFb/XqAes3V+o7D
+                        WSQ1JYvifkk2agzjel+A9m+e7UgaBuuqfwpkClgMExrB8CJI1xBuAHI/yldoaITL
+                        auPKWYb+bXpkPg8BznYhGIA9TSqTPNwd0WmH1SZ1lmINuN8ElKRmi+DKkKe9NRXf
+                        /jS3PKg9NnrFS9fnhTeaI8ikVSh8qPDfsUYtuDF1SL7B+27yT3+7WKCD6gqu/J4P
+                        8iYELM++C29VgApxlHnLdO8CAwEAAaNTMFEwHQYDVR0OBBYEFEgBijs8UaPzEW81
+                        hco9oyNH27b3MB8GA1UdIwQYMBaAFEgBijs8UaPzEW81hco9oyNH27b3MA8GA1Ud
+                        EwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAMTQKHe5mybVO4hlTHeha1xo
+                        /OYREQsa0We4nR5Rbga6xDMHCjnDYdfZg6VqbgGUA97kOAymhlIFO0pNKGowlOdR
+                        o9AjEhW2mq2itD7e4T4bDWqJ+6YAVc94DIVAjaY8BSJiet5BccXB8oles+W9nQ8k
+                        k24X2uCa3lWTbUaNGootbN+DVKVvX85zt5p707++yRQJZH4AWSAgpglnnIxo/y2Z
+                        rVUl8LvbwU4SuSQnyorfaiA0Q4NCnJPoZh1sEyfqvcVkH915RwP+0Vl7oXYgYKx0
+                        52U+G6I3w5qm/PafUQ4K2hn2KIHYDCz4P8DV6pbUqzoZ15BvLPu/3eenzqvdtoGj
+                        hD8/3VxowicLrV69gEWJZ89VMjjPTHp7XyrEvKq4n7uquLArS3dW3+mNrmeFRA99
+                        Y59RFgtroEbIyk5Z/AQA0vuTfEATIMdn/jbeLC2juz57AAnuu6mE72KBdZY3OK2u
+                        F1sQCop/lWfN/khleo5EBWucQ+a7nZnByd6J0sp70AxjSOBTP5I0TBcdZgaDXJpH
+                        b4pOwX4EQeXUwlYTh2eYoZRP2thTdH0QrXKEEicynmBfvECz/4nAPwLPYk+yK9/a
+                        bYYSBn/KbBhBie7chsknzJ+XXb4C9ROubuuAl26yPQxX5uI03lYkVExpj5SdHzts
+                        /ULLKN5t9Us3gc9SQ3+6</ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </Link>
