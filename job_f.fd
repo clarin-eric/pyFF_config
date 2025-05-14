@@ -48,6 +48,7 @@
     name: "http://www.clarin.eu/edugain"
     cacheDuration: PT5H
     validUntil: P10D
+    ID: CLARIN_SPF_IDPS_ALL
 - publish: output/prod_md_about_edugain_idps.xml
 - stats
 - certreport

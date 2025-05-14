@@ -8,6 +8,7 @@
     name: "http://www.clarin.eu/spf"
     cacheDuration: PT5H
     validUntil: P10D
+    ID: CLARIN_IDP
 - publish: output/prod_md_about_clarin_erics_idp.xml
 - stats
 - certreport

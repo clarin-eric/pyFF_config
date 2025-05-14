@@ -48,6 +48,7 @@
     name: "http://www.clarin.eu/spf"
     cacheDuration: PT5H
     validUntil: P10D
+    ID: CLARIN_SPF_IDPS
 - publish: output/prod_md_about_spf_idps.xml
 - stats
 - certreport
