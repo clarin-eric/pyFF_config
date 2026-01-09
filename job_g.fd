@@ -3,7 +3,7 @@
    - input/proxy-idp-metadata.xml
 - select: "!//md:EntityDescriptor"
 - xslt:
-    stylesheet: tidy.xsl 
+    stylesheet: tidy.xsl
 - finalize:
     name: "http://www.clarin.eu/spf"
     cacheDuration: PT5H
