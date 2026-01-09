@@ -8,7 +8,7 @@
     name: "http://www.clarin.eu/spf"
     cacheDuration: PT5H
     validUntil: P10D
-    ID: CLARIN_IDP
+    ID: CLARIN_PROXY_IDP
 - publish: output/prod_md_about_clarin_erics_proxy-idp.xml
 - stats
 - certreport
