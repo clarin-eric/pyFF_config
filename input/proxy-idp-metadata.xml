@@ -39,7 +39,7 @@
     <md:NameIDFormat>unity:identifier</md:NameIDFormat>
     <md:NameIDFormat>unity:persistent</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:n
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:SingleSignOnService Location="https://idm.clarin.eu/saml-idp/saml2idp-web" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
     <md:SingleSignOnService Location="https://idm.clarin.eu/saml-idp/saml2idp-web" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
   </md:IDPSSODescriptor>
