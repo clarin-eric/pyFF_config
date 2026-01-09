@@ -1,0 +1,14 @@
+# Automated job G: publish production SAML metadata about CLARIN SSO Proxy IdP (unity).
+- load:
+   - input/proxy-idp-metadata.xml
+- select: "!//md:EntityDescriptor"
+- xslt:
+    stylesheet: tidy.xsl 
+- finalize:
+    name: "http://www.clarin.eu/spf"
+    cacheDuration: PT5H
+    validUntil: P10D
+    ID: CLARIN_IDP
+- publish: output/prod_md_about_clarin_erics_proxy-idp.xml
+- stats
+- certreport
