@@ -1,0 +1,15 @@
+# Automated job H: publish SAML metadata about the CLARIN SPF’s SPs proxied by the CLARIN SAML proxy.
+- load:
+   - output/sps-metadata/staging/
+- select: "!//md:EntityDescriptor[md:SPSSODescriptor and @entityID='https://beta-catalog.clarin.eu/sp/shibboleth']"
+- xslt:
+    stylesheet: tidy.xsl
+- finalize:
+    name: "http://www.clarin.eu/spf"
+    cacheDuration: PT5H
+    validUntil: P10D
+    ID: CLARIN_SPF_PROXIED_SPS
+- sort order_by .//md:Organization/md:OrganizationName[@xml:lang = "en"]
+- publish: output/md_about_spf_proxied_sps.xml
+- stats
+- certreport
