@@ -8,7 +8,7 @@
     xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"
     xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
     xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" > 
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="true">
  <md:Extensions>
             <shibmd:Scope regexp="false">clarin.eu</shibmd:Scope>
             <mdrpi:RegistrationInfo registrationAuthority="https://www.clarin.eu/spf"/>
