@@ -1,7 +1,7 @@
 # Automated job H: publish SAML metadata about the CLARIN SPF’s SPs proxied by the CLARIN SAML proxy.
 - load:
    - output/sps-metadata/staging/
-- select: "!//md:EntityDescriptor[md:SPSSODescriptor and (@entityID='https://lacos.uni-koeln.de/saml2/metadata/' or @entityID='https://lac.uni-koeln.de/saml2/metadata/' or @entityID='https://beta-catalog.clarin.eu/sp/shibboleth' or @entityID='https://sp.secure-proxy.clarin.eu' or @entityID='https://sp.beta-vcr.clarin.eu')]"
+- select: "!//md:EntityDescriptor[md:SPSSODescriptor and (@entityID='https://lac.uni-koeln.de/saml2/metadata/' or @entityID='https://beta-catalog.clarin.eu/sp/shibboleth' or @entityID='https://sp.secure-proxy.clarin.eu' or @entityID='https://sp.beta-vcr.clarin.eu')]"
 - xslt:
     stylesheet: tidy.xsl
 - finalize:
